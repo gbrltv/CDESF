@@ -1,0 +1,1000 @@
+Case ID,Activity,Resource,Complete Timestamp,Variant,Variant index,procedure_name
+Case 453,Process Creation,Value 89,2010/02/19 10:00:02.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,M_P,Value 6,2010/02/19 14:00:35.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,ME Prod Material Analist,Value 86,2010/02/22 13:00:30.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,Stress,Value 90,2010/03/02 14:00:33.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,ME Fabrication Checker,Value 74,2010/03/02 17:00:04.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 446,Process Creation,Value 84,2010/03/02 18:00:19.000,Variant 2,2,Det_xxx_ELEC_IW-Final_Rel
+Case 453,Design Lead,Value 7,2010/03/03 17:00:06.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,CRA,Value 2,2010/03/09 12:00:15.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 453,release_state,Value 9,2010/03/09 12:00:15.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 447,Process Creation,Value 84,2010/03/09 16:00:57.000,Variant 2,2,Det_xxx_ELEC_IW-Final_Rel
+Case 460,Process Creation,Value 89,2010/03/10 15:00:15.000,Variant 2,2,Assy_xxx_ELEC_IW-Final_Rel
+Case 717,Process Creation,Value 84,2010/05/24 15:00:42.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 717,M_P,Value 6,2010/05/24 18:00:00.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 717,Stress,Value 94,2010/05/25 15:00:24.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 717,ME Prod Material Analist,Value 86,2010/05/27 10:00:00.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 448,Process Creation,Value 85,2010/05/27 11:00:52.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 448,ME Prod Material Analist,Value 86,2010/05/27 12:00:51.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 448,ME Fabrication Checker,Value 87,2010/05/28 12:00:39.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 448,Stress,Value 88,2010/05/28 15:00:27.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 717,ME Fabrication Checker,Value 87,2010/06/01 16:00:43.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 448,M_P,Value 6,2010/06/07 12:00:07.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 448,Design Lead,Value 7,2010/06/14 11:00:36.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 717,Design Lead,Value 7,2010/06/14 11:00:38.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 448,CRA,Value 2,2010/06/14 15:00:36.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 448,release_state,Value 9,2010/06/14 15:00:36.000,Variant 183,183,Det_xxx_ELEC_IW-Final_Rel
+Case 717,CRA,Value 2,2010/06/14 15:00:44.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 717,release_state,Value 9,2010/06/14 15:00:44.000,Variant 152,152,Det_xxx_ELEC_IW-Final_Rel
+Case 936,Process Creation,Value 85,2010/07/02 10:00:44.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,ME Prod Material Analist,Value 86,2010/07/02 13:00:20.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,Stress,Value 90,2010/07/02 15:00:04.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,ME Fabrication Checker,Value 87,2010/07/06 10:00:17.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,M_P,Value 6,2010/07/13 14:00:46.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,Design Lead,Value 7,2010/07/13 18:00:20.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,CRA,Value 2,2010/07/14 14:00:07.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 936,release_state,Value 9,2010/07/14 14:00:07.000,Variant 91,91,Det_xxx_ELEC_IW-Final_Rel
+Case 903,Process Creation,Value 85,2010/07/15 17:00:12.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 903,M_P,Value 6,2010/07/16 09:00:54.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 903,Stress,Value 94,2010/07/16 10:00:33.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 903,ME Fabrication Checker,Value 74,2010/07/16 14:00:57.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 461,Process Creation,Value 85,2010/07/16 17:00:40.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 461,Stress,Value 90,2010/07/16 18:00:05.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 903,ME Prod Material Analist,Value 86,2010/07/19 13:00:38.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 461,M_P,Value 6,2010/07/20 10:00:26.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 461,ME Prod Material Analist,Value 86,2010/07/20 11:00:31.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 461,ME Fabrication Checker,Value 74,2010/07/21 15:00:48.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 461,Design Lead,Value 7,2010/07/22 16:00:24.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 903,Design Lead,Value 7,2010/07/22 16:00:30.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 461,CRA,Value 2,2010/07/23 16:00:21.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 461,release_state,Value 9,2010/07/23 16:00:22.000,Variant 232,232,Assy_xxx_ELEC_IW-Final_Rel
+Case 903,CRA,Value 2,2010/07/23 17:00:22.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 903,release_state,Value 9,2010/07/23 17:00:22.000,Variant 184,184,Det_xxx_ELEC_IW-Final_Rel
+Case 535,Process Creation,Value 85,2010/08/23 14:00:06.000,Variant 2,2,Assy_xxx_ELEC_IW-Final_Rel
+Case 540,Process Creation,Value 85,2010/08/23 14:00:18.000,Variant 2,2,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,Process Creation,Value 85,2010/08/24 12:00:33.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,ME Fabrication Checker,Value 74,2010/08/24 14:00:49.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,ME Prod Material Analist,Value 86,2010/08/27 10:00:17.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,M_P,Value 6,2010/09/02 11:00:48.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,Process Creation,Value 85,2010/09/02 17:00:19.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,M_P,Value 6,2010/09/03 12:00:08.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,Stress,Value 90,2010/09/03 12:00:42.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,ME Prod Material Analist,Value 86,2010/09/03 13:00:30.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,Design Lead,Value 7,2010/09/03 18:00:46.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,CRA,Value 2,2010/09/06 11:00:55.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 541,release_state,Value 9,2010/09/06 11:00:56.000,Variant 140,140,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,ME Fabrication Checker,Value 74,2010/09/06 16:00:42.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,Process Creation,Value 85,2010/09/10 11:00:06.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,Stress,Value 94,2010/09/10 15:00:09.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,Stress,Value 96,2010/09/10 15:00:27.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,Design Lead,Value 7,2010/09/11 09:00:51.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,CRA,Value 8,2010/09/13 09:00:50.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 536,release_state,Value 9,2010/09/13 09:00:52.000,Variant 24,24,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,ME Prod Material Analist,Value 86,2010/09/13 10:00:55.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,ME Fabrication Checker,Value 87,2010/09/13 12:00:43.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,M_P,Value 6,2010/09/14 09:00:30.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,Design Lead,Value 7,2010/09/17 12:00:31.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,CRA,Value 2,2010/09/17 16:00:31.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 701,release_state,Value 9,2010/09/17 16:00:32.000,Variant 167,167,Assy_xxx_ELEC_IW-Final_Rel
+Case 496,Process Creation,Value 93,2010/09/21 09:00:13.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 496,EngSupplierDesign Lead,Value 73,2010/09/21 09:00:56.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 497,Process Creation,Value 93,2010/09/21 15:00:32.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 497,EngSupplierDesign Lead,Value 73,2010/09/21 15:00:48.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 497,WP Lead,Value 25,2010/09/22 10:00:48.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 498,Process Creation,Value 93,2010/09/22 16:00:14.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 498,EngSupplierDesign Lead,Value 73,2010/09/22 16:00:16.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 498,WP Lead,Value 25,2010/09/23 08:00:48.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 498,CRA,Value 8,2010/09/23 10:00:24.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 18,Process Creation,Value 24,2010/09/24 10:00:18.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 18,EngSupplierDesign Lead,Value 24,2010/09/24 10:00:39.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 472,Process Creation,Value 40,2010/09/29 14:00:33.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 472,EngSupplierDesign Lead,Value 41,2010/09/29 14:00:34.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 473,Process Creation,Value 40,2010/10/18 12:00:47.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 473,EngSupplierDesign Lead,Value 41,2010/10/21 16:00:30.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 473,WP Lead,Value 32,2010/10/25 12:00:04.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 473,CRA,Value 2,2010/10/25 18:00:28.000,Variant 129,129,Detail_Supplier_IW-Frozen
+Case 922,Process Creation,Value 55,2010/11/04 16:00:02.000,Variant 3,3,Detail_IW-Frozen
+Case 922,CRA,Value 2,2010/11/05 13:00:17.000,Variant 3,3,Detail_IW-Frozen
+Case 1077,Process Creation,Value 24,2010/11/09 10:00:15.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1077,EngSupplierDesign Lead,Value 24,2010/11/09 14:00:28.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 923,Process Creation,Value 55,2010/11/16 15:00:56.000,Variant 2,2,Detail_IW-Frozen
+Case 924,Process Creation,Value 55,2010/11/17 08:00:38.000,Variant 2,2,Detail_IW-Frozen
+Case 1078,Process Creation,Value 24,2010/11/18 10:00:24.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1078,EngSupplierDesign Lead,Value 24,2010/11/18 16:00:53.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 925,Process Creation,Value 55,2010/11/26 16:00:06.000,Variant 2,2,Detail_IW-Frozen
+Case 926,Process Creation,Value 55,2010/11/30 10:00:25.000,Variant 3,3,Detail_IW-Frozen
+Case 926,CRA,Value 2,2010/12/01 09:00:10.000,Variant 3,3,Detail_IW-Frozen
+Case 927,Process Creation,Value 55,2010/12/02 11:00:12.000,Variant 3,3,Detail_IW-Frozen
+Case 927,CRA,Value 8,2010/12/07 16:00:19.000,Variant 3,3,Detail_IW-Frozen
+Case 1079,Process Creation,Value 24,2011/01/18 16:00:58.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1079,EngSupplierDesign Lead,Value 24,2011/01/18 17:00:00.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 19,Process Creation,Value 24,2011/01/18 18:00:00.000,Variant 2,2,Detail_Supplier_IW-Frozen
+Case 937,Process Creation,Value 35,2011/01/19 16:00:43.000,Variant 2,2,Detail_IW-Frozen
+Case 938,Process Creation,Value 35,2011/01/20 09:00:20.000,Variant 2,2,Detail_IW-Frozen
+Case 1079,WP Lead,Value 25,2011/01/20 10:00:40.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1080,Process Creation,Value 24,2011/01/20 12:00:48.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1080,EngSupplierDesign Lead,Value 24,2011/01/20 12:00:49.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1080,WP Lead,Value 25,2011/01/20 14:00:53.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 928,Process Creation,Value 55,2011/01/20 15:00:32.000,Variant 2,2,Detail_IW-Frozen
+Case 929,Process Creation,Value 55,2011/01/21 08:00:39.000,Variant 2,2,Detail_IW-Frozen
+Case 930,Process Creation,Value 55,2011/01/21 11:00:27.000,Variant 2,2,Detail_IW-Frozen
+Case 939,Process Creation,Value 35,2011/01/22 06:00:52.000,Variant 216,216,Detail_IW-Frozen
+Case 931,Process Creation,Value 55,2011/01/22 11:00:00.000,Variant 2,2,Detail_IW-Frozen
+Case 939,CRA,Value 8,2011/01/24 14:00:25.000,Variant 216,216,Detail_IW-Frozen
+Case 932,Process Creation,Value 55,2011/01/24 16:00:23.000,Variant 88,88,Detail_IW-Frozen
+Case 939,M_P,Value 6,2011/01/24 16:00:42.000,Variant 216,216,Detail_IW-Frozen
+Case 1081,Process Creation,Value 24,2011/01/24 18:00:03.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1081,EngSupplierDesign Lead,Value 24,2011/01/25 09:00:09.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 932,CRA,Value 8,2011/01/25 14:00:38.000,Variant 88,88,Detail_IW-Frozen
+Case 932,M_P,Value 6,2011/01/25 14:00:50.000,Variant 88,88,Detail_IW-Frozen
+Case 932,Weight,Value 3,2011/01/25 16:00:33.000,Variant 88,88,Detail_IW-Frozen
+Case 932,Design Checker,Value 59,2011/01/25 16:00:40.000,Variant 88,88,Detail_IW-Frozen
+Case 932,Stress,Value 23,2011/01/25 17:00:57.000,Variant 88,88,Detail_IW-Frozen
+Case 939,Weight,Value 3,2011/01/26 08:00:14.000,Variant 216,216,Detail_IW-Frozen
+Case 939,ME Assembly Checker,Value 17,2011/01/26 09:00:07.000,Variant 216,216,Detail_IW-Frozen
+Case 939,ME Fabrication Checker,Value 17,2011/01/26 09:00:07.000,Variant 216,216,Detail_IW-Frozen
+Case 932,ME Assembly Checker,Value 33,2011/01/26 09:00:20.000,Variant 88,88,Detail_IW-Frozen
+Case 932,ME Fabrication Checker,Value 43,2011/01/26 09:00:31.000,Variant 88,88,Detail_IW-Frozen
+Case 939,Stress,Value 78,2011/01/26 14:00:49.000,Variant 216,216,Detail_IW-Frozen
+Case 939,Design Checker,Value 35,2011/01/26 16:00:50.000,Variant 216,216,Detail_IW-Frozen
+Case 939,Design Lead,Value 54,2011/01/26 17:00:05.000,Variant 216,216,Detail_IW-Frozen
+Case 932,Design Lead,Value 14,2011/01/26 17:00:25.000,Variant 88,88,Detail_IW-Frozen
+Case 20,Process Creation,Value 24,2011/01/26 17:00:36.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 20,EngSupplierDesign Lead,Value 24,2011/01/26 18:00:32.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 910,Process Creation,Value 55,2011/01/27 11:00:56.000,Variant 2,2,Detail_IW-Frozen
+Case 940,Process Creation,Value 8,2011/01/27 17:00:56.000,Variant 2,2,Frozen-Working
+Case 911,Process Creation,Value 55,2011/01/31 14:00:38.000,Variant 2,2,Detail_IW-Frozen
+Case 961,Process Creation,Value 31,2011/01/31 15:00:23.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 961,EngSupplierDesign Lead,Value 31,2011/01/31 15:00:28.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 961,WP Lead,Value 32,2011/01/31 17:00:28.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 912,Process Creation,Value 55,2011/02/01 09:00:31.000,Variant 3,3,Detail_IW-Frozen
+Case 912,CRA,Value 2,2011/02/01 15:00:16.000,Variant 3,3,Detail_IW-Frozen
+Case 50,Process Creation,Value 31,2011/02/01 16:00:15.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 50,EngSupplierDesign Lead,Value 31,2011/02/01 16:00:16.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 50,WP Lead,Value 32,2011/02/01 16:00:30.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1082,Process Creation,Value 24,2011/02/01 17:00:12.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1082,EngSupplierDesign Lead,Value 24,2011/02/01 17:00:13.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 1082,WP Lead,Value 25,2011/02/02 12:00:35.000,Variant 9,9,Detail_Supplier_IW-Frozen
+Case 913,Process Creation,Value 55,2011/02/02 15:00:02.000,Variant 2,2,Detail_IW-Frozen
+Case 914,Process Creation,Value 55,2011/02/03 10:00:23.000,Variant 3,3,Detail_IW-Frozen
+Case 914,CRA,Value 2,2011/02/03 13:00:03.000,Variant 3,3,Detail_IW-Frozen
+Case 915,Process Creation,Value 55,2011/02/07 09:00:38.000,Variant 2,2,Detail_IW-Frozen
+Case 499,Process Creation,Value 73,2011/02/07 10:00:06.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 499,EngSupplierDesign Lead,Value 73,2011/02/07 11:00:20.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 962,Process Creation,Value 77,2011/02/07 11:00:22.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 962,EngSupplierDesign Lead,Value 31,2011/02/07 11:00:48.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 499,WP Lead,Value 25,2011/02/07 11:00:52.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 499,Stress WP Lead,Value 26,2011/02/07 17:00:38.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 600,Process Creation,Value 30,2011/02/07 18:00:44.000,Variant 3,3,Detail_IW-Frozen
+Case 500,Process Creation,Value 73,2011/02/08 12:00:03.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 500,EngSupplierDesign Lead,Value 73,2011/02/08 12:00:08.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 51,Process Creation,Value 31,2011/02/08 12:00:39.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 51,EngSupplierDesign Lead,Value 31,2011/02/08 12:00:55.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 916,Process Creation,Value 55,2011/02/08 15:00:01.000,Variant 3,3,Detail_IW-Frozen
+Case 600,CRA,Value 8,2011/02/08 15:00:26.000,Variant 3,3,Detail_IW-Frozen
+Case 501,Process Creation,Value 73,2011/02/08 15:00:57.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 501,EngSupplierDesign Lead,Value 73,2011/02/08 16:00:02.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 501,WP Lead,Value 25,2011/02/08 17:00:05.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 916,CRA,Value 8,2011/02/08 17:00:44.000,Variant 3,3,Detail_IW-Frozen
+Case 501,Stress WP Lead,Value 26,2011/02/09 16:00:27.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 601,Process Creation,Value 30,2011/02/09 17:00:25.000,Variant 3,3,Detail_IW-Frozen
+Case 963,Process Creation,Value 77,2011/02/10 09:00:31.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 917,Process Creation,Value 55,2011/02/10 09:00:50.000,Variant 60,60,Detail_IW-Frozen
+Case 501,CRA,Value 8,2011/02/10 10:00:31.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 52,Process Creation,Value 31,2011/02/10 11:00:22.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 52,EngSupplierDesign Lead,Value 31,2011/02/10 11:00:30.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 963,EngSupplierDesign Lead,Value 31,2011/02/10 11:00:32.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 52,WP Lead,Value 32,2011/02/10 11:00:39.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 963,WP Lead,Value 32,2011/02/10 11:00:41.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 963,Stress WP Lead,Value 26,2011/02/10 11:00:49.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 52,Stress WP Lead,Value 26,2011/02/10 11:00:53.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 1083,Process Creation,Value 24,2011/02/10 14:00:58.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1083,EngSupplierDesign Lead,Value 24,2011/02/10 14:00:59.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 601,CRA,Value 8,2011/02/10 15:00:05.000,Variant 3,3,Detail_IW-Frozen
+Case 502,Process Creation,Value 73,2011/02/10 17:00:14.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 502,EngSupplierDesign Lead,Value 73,2011/02/10 17:00:15.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 502,WP Lead,Value 25,2011/02/11 10:00:26.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 917,CRA,Value 2,2011/02/11 11:00:34.000,Variant 60,60,Detail_IW-Frozen
+Case 502,Stress WP Lead,Value 26,2011/02/11 12:00:01.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 917,Weight,Value 3,2011/02/11 12:00:03.000,Variant 60,60,Detail_IW-Frozen
+Case 1084,Process Creation,Value 24,2011/02/11 12:00:14.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1084,EngSupplierDesign Lead,Value 24,2011/02/11 12:00:16.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 602,Process Creation,Value 30,2011/02/11 12:00:31.000,Variant 3,3,Detail_IW-Frozen
+Case 454,Process Creation,Value 36,2011/02/11 12:00:37.000,Variant 2,2,Detail_IW-Frozen
+Case 917,M_P,Value 6,2011/02/11 12:00:41.000,Variant 60,60,Detail_IW-Frozen
+Case 1221,Process Creation,Value 36,2011/02/11 16:00:41.000,Variant 2,2,Detail_IW-Frozen
+Case 602,CRA,Value 8,2011/02/11 17:00:02.000,Variant 3,3,Detail_IW-Frozen
+Case 917,Design Checker,Value 59,2011/02/14 09:00:29.000,Variant 60,60,Detail_IW-Frozen
+Case 1085,Process Creation,Value 24,2011/02/14 09:00:46.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 503,Process Creation,Value 73,2011/02/14 10:00:37.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 503,EngSupplierDesign Lead,Value 73,2011/02/14 10:00:45.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 503,WP Lead,Value 25,2011/02/14 10:00:47.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1085,EngSupplierDesign Lead,Value 24,2011/02/14 11:00:09.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 503,Stress WP Lead,Value 26,2011/02/14 11:00:49.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 964,Process Creation,Value 77,2011/02/14 12:00:05.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 964,EngSupplierDesign Lead,Value 31,2011/02/14 12:00:37.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 917,Stress,Value 23,2011/02/14 12:00:39.000,Variant 60,60,Detail_IW-Frozen
+Case 964,WP Lead,Value 32,2011/02/14 12:00:40.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 53,Process Creation,Value 31,2011/02/14 14:00:37.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 53,EngSupplierDesign Lead,Value 31,2011/02/14 14:00:37.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 53,WP Lead,Value 32,2011/02/14 14:00:41.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1085,WP Lead,Value 25,2011/02/14 14:00:49.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 53,Stress WP Lead,Value 26,2011/02/14 14:00:55.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 964,Stress WP Lead,Value 26,2011/02/14 15:00:03.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 1085,Stress WP Lead,Value 26,2011/02/14 15:00:38.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 603,Process Creation,Value 30,2011/02/14 16:00:52.000,Variant 242,242,Detail_IW-Frozen
+Case 503,CRA,Value 8,2011/02/14 17:00:02.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 917,ME Fabrication Checker,Value 87,2011/02/14 17:00:04.000,Variant 60,60,Detail_IW-Frozen
+Case 782,Process Creation,Value 95,2011/02/14 17:00:44.000,Variant 2,2,Detail_F-assy_IW-Pending
+Case 53,CRA,Value 2,2011/02/15 09:00:30.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 964,CRA,Value 2,2011/02/15 09:00:33.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 455,Process Creation,Value 36,2011/02/15 09:00:34.000,Variant 2,2,Detail_IW-Frozen
+Case 456,Process Creation,Value 36,2011/02/15 11:00:35.000,Variant 3,3,Detail_IW-Frozen
+Case 964,M_P,Value 18,2011/02/15 14:00:50.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 603,CRA,Value 8,2011/02/15 15:00:42.000,Variant 242,242,Detail_IW-Frozen
+Case 1085,CRA,Value 8,2011/02/15 15:00:47.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 456,CRA,Value 8,2011/02/15 15:00:51.000,Variant 3,3,Detail_IW-Frozen
+Case 603,Design Checker,Value 1,2011/02/15 16:00:09.000,Variant 242,242,Detail_IW-Frozen
+Case 603,M_P,Value 6,2011/02/15 17:00:09.000,Variant 242,242,Detail_IW-Frozen
+Case 603,Stress,Value 4,2011/02/15 18:00:06.000,Variant 242,242,Detail_IW-Frozen
+Case 603,ME Assembly Checker,Value 12,2011/02/15 18:00:35.000,Variant 242,242,Detail_IW-Frozen
+Case 603,ME Fabrication Checker,Value 12,2011/02/15 18:00:35.000,Variant 242,242,Detail_IW-Frozen
+Case 603,Weight,Value 3,2011/02/16 08:00:16.000,Variant 242,242,Detail_IW-Frozen
+Case 603,Design Lead,Value 7,2011/02/16 10:00:10.000,Variant 242,242,Detail_IW-Frozen
+Case 1222,Process Creation,Value 36,2011/02/16 10:00:46.000,Variant 3,3,Detail_IW-Frozen
+Case 54,Process Creation,Value 31,2011/02/16 11:00:23.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 54,EngSupplierDesign Lead,Value 31,2011/02/16 11:00:41.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 54,WP Lead,Value 32,2011/02/16 11:00:46.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 54,Stress WP Lead,Value 26,2011/02/16 11:00:53.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 964,ME Assembly Checker,Value 33,2011/02/16 12:00:44.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 819,Process Creation,Value 95,2011/02/16 15:00:10.000,Variant 2,2,F-assy_IW-Frozen
+Case 504,Process Creation,Value 73,2011/02/16 15:00:23.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 917,ME Assembly Checker,Value 33,2011/02/16 15:00:56.000,Variant 60,60,Detail_IW-Frozen
+Case 1222,CRA,Value 8,2011/02/16 16:00:17.000,Variant 3,3,Detail_IW-Frozen
+Case 504,EngSupplierDesign Lead,Value 73,2011/02/16 17:00:40.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 917,Design Lead,Value 14,2011/02/16 19:00:33.000,Variant 60,60,Detail_IW-Frozen
+Case 1086,Process Creation,Value 24,2011/02/17 10:00:55.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 505,Process Creation,Value 73,2011/02/17 12:00:07.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 505,EngSupplierDesign Lead,Value 73,2011/02/17 12:00:08.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 1086,EngSupplierDesign Lead,Value 24,2011/02/17 13:00:10.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 505,WP Lead,Value 25,2011/02/17 15:00:05.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 505,Stress WP Lead,Value 26,2011/02/17 16:00:31.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 54,CRA,Value 2,2011/02/17 17:00:34.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 820,Process Creation,Value 95,2011/02/18 10:00:29.000,Variant 2,2,F-assy_IW-Frozen
+Case 783,Process Creation,Value 95,2011/02/18 10:00:49.000,Variant 2,2,Detail_F-assy_Pending-IW
+Case 784,Process Creation,Value 95,2011/02/18 10:00:50.000,Variant 2,2,Detail_F-assy_IW-Pending
+Case 54,ME Assembly Checker,Value 33,2011/02/18 11:00:51.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 54,M_P,Value 18,2011/02/18 12:00:11.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 570,Process Creation,Value 62,2011/02/18 12:00:16.000,Variant 2,2,F-assy_IW-Frozen
+Case 54,Stress,Value 4,2011/02/18 16:00:25.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 964,Stress,Value 4,2011/02/18 16:00:37.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 1223,Process Creation,Value 36,2011/02/21 09:00:42.000,Variant 2,2,Detail_IW-Frozen
+Case 821,Process Creation,Value 95,2011/02/21 16:00:44.000,Variant 2,2,F-assy_IW-Frozen
+Case 506,Process Creation,Value 73,2011/02/22 09:00:32.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 506,EngSupplierDesign Lead,Value 73,2011/02/22 09:00:34.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1087,Process Creation,Value 24,2011/02/22 11:00:27.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1087,EngSupplierDesign Lead,Value 24,2011/02/22 14:00:18.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 42,Process Creation,Value 1,2011/02/22 17:00:22.000,Variant 3,3,Detail_IW-Frozen
+Case 964,Weight,Value 3,2011/02/23 09:00:52.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 54,Weight,Value 3,2011/02/23 10:00:08.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 42,CRA,Value 2,2011/02/23 15:00:08.000,Variant 3,3,Detail_IW-Frozen
+Case 54,ME Fabrication Checker,Value 34,2011/02/23 17:00:55.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 507,Process Creation,Value 73,2011/02/23 18:00:09.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 507,EngSupplierDesign Lead,Value 73,2011/02/23 18:00:10.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 964,ME Fabrication Checker,Value 34,2011/02/23 18:00:30.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 54,Design Lead,Value 20,2011/02/23 18:00:47.000,Variant 271,271,Detail_Supplier_IW-Frozen
+Case 964,Design Lead,Value 20,2011/02/23 18:00:50.000,Variant 165,165,Detail_Supplier_IW-Frozen
+Case 933,Process Creation,Value 2,2011/02/24 17:00:43.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 933,release_state,Value 9,2011/02/24 17:00:46.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1137,Process Creation,Value 65,2011/02/25 12:00:19.000,Variant 2,2,Detail_IW-Frozen
+Case 507,WP Lead,Value 25,2011/02/25 12:00:53.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 21,Process Creation,Value 24,2011/02/25 13:00:30.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 21,EngSupplierDesign Lead,Value 24,2011/02/25 13:00:32.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 507,Stress WP Lead,Value 26,2011/02/25 13:00:46.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 507,CRA,Value 2,2011/02/25 16:00:38.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1138,Process Creation,Value 65,2011/02/26 08:00:15.000,Variant 2,2,Detail_IW-Frozen
+Case 1139,Process Creation,Value 65,2011/02/26 12:00:33.000,Variant 2,2,Detail_IW-Frozen
+Case 22,Process Creation,Value 24,2011/02/26 13:00:28.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 22,EngSupplierDesign Lead,Value 24,2011/02/26 13:00:47.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 807,Process Creation,Value 95,2011/02/28 14:00:41.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 508,Process Creation,Value 73,2011/02/28 16:00:14.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 508,EngSupplierDesign Lead,Value 73,2011/02/28 16:00:15.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 508,WP Lead,Value 25,2011/02/28 16:00:52.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 508,Stress WP Lead,Value 26,2011/02/28 17:00:34.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1052,Process Creation,Value 92,2011/03/01 09:00:56.000,Variant 2,2,Detail_IW-Frozen
+Case 1247,Process Creation,Value 36,2011/03/01 10:00:55.000,Variant 3,3,Detail_IW-Frozen
+Case 571,Process Creation,Value 62,2011/03/01 12:00:43.000,Variant 2,2,F-assy_IW-Frozen
+Case 508,CRA,Value 2,2011/03/01 13:00:35.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1053,Process Creation,Value 92,2011/03/01 14:00:27.000,Variant 3,3,Detail_IW-Frozen
+Case 1088,Process Creation,Value 24,2011/03/01 14:00:55.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1088,EngSupplierDesign Lead,Value 24,2011/03/01 15:00:11.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 577,Process Creation,Value 62,2011/03/01 15:00:59.000,Variant 2,2,Detail_F-assy_IW-Pending
+Case 1053,CRA,Value 2,2011/03/01 16:00:13.000,Variant 3,3,Detail_IW-Frozen
+Case 1247,CRA,Value 2,2011/03/01 16:00:13.000,Variant 3,3,Detail_IW-Frozen
+Case 578,Process Creation,Value 62,2011/03/01 16:00:38.000,Variant 2,2,Detail_F-assy_Pending-IW
+Case 1224,Process Creation,Value 36,2011/03/01 16:00:50.000,Variant 2,2,Detail_IW-Frozen
+Case 579,Process Creation,Value 62,2011/03/01 17:00:48.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 23,Process Creation,Value 24,2011/03/02 10:00:06.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 822,Process Creation,Value 95,2011/03/02 10:00:51.000,Variant 2,2,F-assy_IW-Frozen
+Case 23,EngSupplierDesign Lead,Value 24,2011/03/02 11:00:32.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1089,Process Creation,Value 24,2011/03/02 11:00:48.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 1089,EngSupplierDesign Lead,Value 24,2011/03/02 12:00:25.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 1089,WP Lead,Value 25,2011/03/02 14:00:10.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 823,Process Creation,Value 95,2011/03/02 15:00:26.000,Variant 2,2,F-assy_IW-Frozen
+Case 1038,Process Creation,Value 46,2011/03/02 17:00:47.000,Variant 2,2,Detail_IW-Frozen
+Case 1089,Stress WP Lead,Value 26,2011/03/02 17:00:49.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 593,Process Creation,Value 56,2011/03/02 17:00:50.000,Variant 2,2,Detail_IW-Frozen
+Case 1201,Process Creation,Value 24,2011/03/02 18:00:41.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1201,EngSupplierDesign Lead,Value 24,2011/03/02 18:00:43.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1225,Process Creation,Value 36,2011/03/03 10:00:04.000,Variant 3,3,Detail_IW-Frozen
+Case 1054,Process Creation,Value 92,2011/03/03 10:00:57.000,Variant 48,48,Detail_IW-Frozen
+Case 824,Process Creation,Value 95,2011/03/03 15:00:15.000,Variant 159,159,F-assy_IW-Frozen
+Case 1225,CRA,Value 2,2011/03/03 17:00:42.000,Variant 3,3,Detail_IW-Frozen
+Case 1090,Process Creation,Value 24,2011/03/03 17:00:50.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1090,EngSupplierDesign Lead,Value 24,2011/03/03 18:00:42.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1039,Process Creation,Value 46,2011/03/03 18:00:49.000,Variant 2,2,Detail_IW-Frozen
+Case 43,Process Creation,Value 1,2011/03/03 18:00:54.000,Variant 3,3,Detail_IW-Frozen
+Case 785,Process Creation,Value 95,2011/03/04 11:00:45.000,Variant 2,2,Detail_F-assy_Pending-IW
+Case 24,Process Creation,Value 24,2011/03/04 11:00:48.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 24,EngSupplierDesign Lead,Value 24,2011/03/04 11:00:49.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 786,Process Creation,Value 95,2011/03/04 12:00:32.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 43,CRA,Value 2,2011/03/04 13:00:48.000,Variant 3,3,Detail_IW-Frozen
+Case 509,Process Creation,Value 73,2011/03/04 13:00:57.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 509,EngSupplierDesign Lead,Value 73,2011/03/04 13:00:57.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 24,WP Lead,Value 25,2011/03/04 14:00:04.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1040,Process Creation,Value 46,2011/03/04 14:00:31.000,Variant 3,3,Detail_IW-Frozen
+Case 918,Process Creation,Value 2,2011/03/04 15:00:06.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 918,release_state,Value 9,2011/03/04 15:00:08.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 223,Process Creation,Value 15,2011/03/04 16:00:43.000,Variant 2,2,Detail_IW-Frozen
+Case 486,Process Creation,Value 1,2011/03/04 17:00:15.000,Variant 2,2,Detail_IW-Frozen
+Case 24,Stress WP Lead,Value 26,2011/03/05 09:00:32.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 594,Process Creation,Value 56,2011/03/05 09:00:50.000,Variant 3,3,Detail_IW-Frozen
+Case 44,Process Creation,Value 30,2011/03/05 10:00:43.000,Variant 2,2,Detail_IW-Frozen
+Case 224,Process Creation,Value 15,2011/03/05 12:00:42.000,Variant 48,48,Detail_IW-Frozen
+Case 24,CRA,Value 2,2011/03/07 14:00:11.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 224,CRA,Value 2,2011/03/07 14:00:12.000,Variant 48,48,Detail_IW-Frozen
+Case 1054,CRA,Value 2,2011/03/07 14:00:13.000,Variant 48,48,Detail_IW-Frozen
+Case 594,CRA,Value 2,2011/03/07 14:00:14.000,Variant 3,3,Detail_IW-Frozen
+Case 1040,CRA,Value 2,2011/03/07 14:00:15.000,Variant 3,3,Detail_IW-Frozen
+Case 457,Process Creation,Value 36,2011/03/07 14:00:21.000,Variant 2,2,Detail_IW-Frozen
+Case 45,Process Creation,Value 30,2011/03/07 14:00:52.000,Variant 2,2,Detail_IW-Frozen
+Case 458,Process Creation,Value 36,2011/03/07 14:00:55.000,Variant 101,101,Detail_IW-Frozen
+Case 487,Process Creation,Value 30,2011/03/07 16:00:13.000,Variant 3,3,Detail_IW-Frozen
+Case 224,M_P,Value 18,2011/03/07 16:00:55.000,Variant 48,48,Detail_IW-Frozen
+Case 965,Process Creation,Value 8,2011/03/07 17:00:07.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 965,release_state,Value 9,2011/03/07 17:00:09.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 604,Process Creation,Value 8,2011/03/07 17:00:43.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 604,release_state,Value 9,2011/03/07 17:00:46.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 55,Process Creation,Value 2,2011/03/07 17:00:47.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 55,release_state,Value 9,2011/03/07 17:00:49.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1054,M_P,Value 18,2011/03/07 17:00:51.000,Variant 48,48,Detail_IW-Frozen
+Case 1090,WP Lead,Value 25,2011/03/08 10:00:10.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1202,Process Creation,Value 24,2011/03/08 10:00:20.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1202,EngSupplierDesign Lead,Value 24,2011/03/08 10:00:25.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 595,Process Creation,Value 56,2011/03/08 10:00:37.000,Variant 3,3,Detail_IW-Frozen
+Case 1054,ME Assembly Checker,Value 29,2011/03/08 11:00:19.000,Variant 48,48,Detail_IW-Frozen
+Case 1054,ME Fabrication Checker,Value 29,2011/03/08 11:00:19.000,Variant 48,48,Detail_IW-Frozen
+Case 224,ME Assembly Checker,Value 29,2011/03/08 11:00:22.000,Variant 48,48,Detail_IW-Frozen
+Case 224,ME Fabrication Checker,Value 29,2011/03/08 11:00:23.000,Variant 48,48,Detail_IW-Frozen
+Case 1041,Process Creation,Value 46,2011/03/08 12:00:02.000,Variant 3,3,Detail_IW-Frozen
+Case 1202,Stress WP Lead,Value 27,2011/03/08 12:00:27.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 458,CRA,Value 2,2011/03/08 12:00:37.000,Variant 101,101,Detail_IW-Frozen
+Case 487,CRA,Value 2,2011/03/08 12:00:38.000,Variant 3,3,Detail_IW-Frozen
+Case 25,Process Creation,Value 24,2011/03/08 12:00:49.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 595,CRA,Value 2,2011/03/08 12:00:50.000,Variant 3,3,Detail_IW-Frozen
+Case 46,Process Creation,Value 30,2011/03/09 08:00:57.000,Variant 34,34,Detail_IW-Frozen
+Case 25,EngSupplierDesign Lead,Value 24,2011/03/09 09:00:22.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 458,Weight,Value 3,2011/03/09 09:00:35.000,Variant 101,101,Detail_IW-Frozen
+Case 1054,Weight,Value 3,2011/03/09 09:00:43.000,Variant 48,48,Detail_IW-Frozen
+Case 224,Weight,Value 3,2011/03/09 09:00:48.000,Variant 48,48,Detail_IW-Frozen
+Case 458,ME Assembly Checker,Value 29,2011/03/09 10:00:06.000,Variant 101,101,Detail_IW-Frozen
+Case 488,Process Creation,Value 1,2011/03/09 11:00:10.000,Variant 3,3,Detail_IW-Frozen
+Case 1202,WP Lead,Value 25,2011/03/09 11:00:14.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 46,CRA,Value 2,2011/03/09 14:00:19.000,Variant 34,34,Detail_IW-Frozen
+Case 488,CRA,Value 2,2011/03/09 14:00:19.000,Variant 3,3,Detail_IW-Frozen
+Case 1041,CRA,Value 2,2011/03/09 14:00:21.000,Variant 3,3,Detail_IW-Frozen
+Case 824,CRA,Value 39,2011/03/09 15:00:07.000,Variant 159,159,F-assy_IW-Frozen
+Case 572,Process Creation,Value 62,2011/03/09 15:00:20.000,Variant 20,20,F-assy_IW-Frozen
+Case 46,Weight,Value 3,2011/03/09 15:00:23.000,Variant 34,34,Detail_IW-Frozen
+Case 596,Process Creation,Value 56,2011/03/09 16:00:20.000,Variant 690,690,Detail_IW-Frozen
+Case 1203,Process Creation,Value 24,2011/03/09 16:00:45.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1203,EngSupplierDesign Lead,Value 24,2011/03/09 17:00:01.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 46,Design Checker,Value 1,2011/03/09 17:00:07.000,Variant 34,34,Detail_IW-Frozen
+Case 1012,Process Creation,Value 30,2011/03/09 17:00:09.000,Variant 2,2,Detail_IW-Frozen
+Case 1013,Process Creation,Value 30,2011/03/09 17:00:26.000,Variant 74,74,Detail_IW-Frozen
+Case 824,M_P,Value 18,2011/03/09 18:00:05.000,Variant 159,159,F-assy_IW-Frozen
+Case 46,M_P,Value 18,2011/03/09 19:00:28.000,Variant 34,34,Detail_IW-Frozen
+Case 1054,Design Checker,Value 19,2011/03/10 08:00:27.000,Variant 48,48,Detail_IW-Frozen
+Case 224,Design Checker,Value 19,2011/03/10 08:00:28.000,Variant 48,48,Detail_IW-Frozen
+Case 458,ME Fabrication Checker,Value 37,2011/03/10 10:00:06.000,Variant 101,101,Detail_IW-Frozen
+Case 458,M_P,Value 18,2011/03/10 10:00:08.000,Variant 101,101,Detail_IW-Frozen
+Case 824,Design Checker,Value 62,2011/03/10 10:00:51.000,Variant 159,159,F-assy_IW-Frozen
+Case 824,ME Assembly Checker,Value 37,2011/03/10 10:00:55.000,Variant 159,159,F-assy_IW-Frozen
+Case 224,Stress,Value 4,2011/03/10 11:00:15.000,Variant 48,48,Detail_IW-Frozen
+Case 1054,Stress,Value 4,2011/03/10 11:00:19.000,Variant 48,48,Detail_IW-Frozen
+Case 1090,Stress WP Lead,Value 26,2011/03/10 12:00:19.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1054,Design Lead,Value 20,2011/03/10 13:00:00.000,Variant 48,48,Detail_IW-Frozen
+Case 224,Design Lead,Value 20,2011/03/10 13:00:01.000,Variant 48,48,Detail_IW-Frozen
+Case 489,Process Creation,Value 1,2011/03/10 13:00:10.000,Variant 2,2,Detail_IW-Frozen
+Case 1203,Stress WP Lead,Value 27,2011/03/10 14:00:26.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 824,Stress,Value 38,2011/03/10 14:00:38.000,Variant 159,159,F-assy_IW-Frozen
+Case 1140,Process Creation,Value 65,2011/03/10 14:00:57.000,Variant 3,3,Detail_IW-Frozen
+Case 510,Process Creation,Value 73,2011/03/10 14:00:58.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 510,EngSupplierDesign Lead,Value 73,2011/03/10 14:00:59.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1013,CRA,Value 2,2011/03/10 15:00:10.000,Variant 74,74,Detail_IW-Frozen
+Case 596,CRA,Value 2,2011/03/10 15:00:11.000,Variant 690,690,Detail_IW-Frozen
+Case 596,Stress,Value 13,2011/03/10 15:00:59.000,Variant 690,690,Detail_IW-Frozen
+Case 572,CRA,Value 39,2011/03/10 16:00:15.000,Variant 20,20,F-assy_IW-Frozen
+Case 1090,CRA,Value 2,2011/03/10 17:00:25.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1013,Design Checker,Value 1,2011/03/10 18:00:10.000,Variant 74,74,Detail_IW-Frozen
+Case 572,Design Checker,Value 62,2011/03/10 18:00:19.000,Variant 20,20,F-assy_IW-Frozen
+Case 46,Stress,Value 23,2011/03/10 18:00:32.000,Variant 34,34,Detail_IW-Frozen
+Case 679,Process Creation,Value 46,2011/03/10 18:00:44.000,Variant 3,3,Detail_IW-Frozen
+Case 69,Process Creation,Value 30,2011/03/11 09:00:14.000,Variant 3,3,Detail_IW-Frozen
+Case 572,Weight,Value 3,2011/03/11 09:00:31.000,Variant 20,20,F-assy_IW-Frozen
+Case 1013,Weight,Value 3,2011/03/11 09:00:35.000,Variant 74,74,Detail_IW-Frozen
+Case 596,Weight,Value 3,2011/03/11 09:00:38.000,Variant 690,690,Detail_IW-Frozen
+Case 824,Weight,Value 3,2011/03/11 09:00:56.000,Variant 159,159,F-assy_IW-Frozen
+Case 572,Stress,Value 38,2011/03/11 10:00:42.000,Variant 20,20,F-assy_IW-Frozen
+Case 596,ME Assembly Checker,Value 29,2011/03/11 10:00:44.000,Variant 690,690,Detail_IW-Frozen
+Case 596,M_P,Value 18,2011/03/11 10:00:54.000,Variant 690,690,Detail_IW-Frozen
+Case 490,Process Creation,Value 1,2011/03/11 10:00:57.000,Variant 88,88,Detail_IW-Frozen
+Case 69,CRA,Value 2,2011/03/11 11:00:00.000,Variant 3,3,Detail_IW-Frozen
+Case 572,M_P,Value 18,2011/03/11 11:00:06.000,Variant 20,20,F-assy_IW-Frozen
+Case 1042,Process Creation,Value 46,2011/03/11 11:00:46.000,Variant 3,3,Detail_IW-Frozen
+Case 572,ME Assembly Checker,Value 37,2011/03/11 12:00:19.000,Variant 20,20,F-assy_IW-Frozen
+Case 1140,CRA,Value 2,2011/03/11 12:00:39.000,Variant 3,3,Detail_IW-Frozen
+Case 46,ME Assembly Checker,Value 5,2011/03/11 13:00:00.000,Variant 34,34,Detail_IW-Frozen
+Case 46,ME Fabrication Checker,Value 5,2011/03/11 13:00:00.000,Variant 34,34,Detail_IW-Frozen
+Case 824,Design Lead,Value 7,2011/03/11 14:00:15.000,Variant 159,159,F-assy_IW-Frozen
+Case 572,Design Lead,Value 7,2011/03/11 14:00:43.000,Variant 20,20,F-assy_IW-Frozen
+Case 46,Design Lead,Value 7,2011/03/11 15:00:00.000,Variant 34,34,Detail_IW-Frozen
+Case 1187,Process Creation,Value 56,2011/03/11 15:00:21.000,Variant 3,3,Detail_IW-Frozen
+Case 1013,M_P,Value 18,2011/03/11 15:00:29.000,Variant 74,74,Detail_IW-Frozen
+Case 679,CRA,Value 2,2011/03/11 15:00:40.000,Variant 3,3,Detail_IW-Frozen
+Case 1042,CRA,Value 2,2011/03/11 15:00:40.000,Variant 3,3,Detail_IW-Frozen
+Case 1013,ME Assembly Checker,Value 37,2011/03/11 16:00:52.000,Variant 74,74,Detail_IW-Frozen
+Case 1013,ME Fabrication Checker,Value 37,2011/03/11 16:00:52.000,Variant 74,74,Detail_IW-Frozen
+Case 1013,Stress,Value 23,2011/03/12 09:00:13.000,Variant 74,74,Detail_IW-Frozen
+Case 1013,Design Lead,Value 7,2011/03/12 10:00:50.000,Variant 74,74,Detail_IW-Frozen
+Case 458,Design Checker,Value 35,2011/03/14 09:00:16.000,Variant 101,101,Detail_IW-Frozen
+Case 1141,Process Creation,Value 65,2011/03/14 09:00:28.000,Variant 3,3,Detail_IW-Frozen
+Case 1248,Process Creation,Value 36,2011/03/14 10:00:13.000,Variant 337,337,Detail_IW-Frozen
+Case 1226,Process Creation,Value 36,2011/03/14 10:00:36.000,Variant 3,3,Detail_IW-Frozen
+Case 680,Process Creation,Value 46,2011/03/14 15:00:12.000,Variant 579,579,Detail_IW-Frozen
+Case 70,Process Creation,Value 30,2011/03/14 15:00:45.000,Variant 2,2,Detail_IW-Frozen
+Case 490,CRA,Value 39,2011/03/14 16:00:44.000,Variant 88,88,Detail_IW-Frozen
+Case 490,M_P,Value 6,2011/03/14 17:00:11.000,Variant 88,88,Detail_IW-Frozen
+Case 596,Design Checker,Value 46,2011/03/14 19:00:20.000,Variant 690,690,Detail_IW-Frozen
+Case 458,Stress,Value 38,2011/03/15 09:00:43.000,Variant 101,101,Detail_IW-Frozen
+Case 1187,CRA,Value 39,2011/03/15 14:00:22.000,Variant 3,3,Detail_IW-Frozen
+Case 680,CRA,Value 39,2011/03/15 14:00:32.000,Variant 579,579,Detail_IW-Frozen
+Case 680,ME Assembly Checker,Value 29,2011/03/15 15:00:24.000,Variant 579,579,Detail_IW-Frozen
+Case 1014,Process Creation,Value 2,2011/03/15 16:00:17.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1014,release_state,Value 9,2011/03/15 16:00:19.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 314,Process Creation,Value 30,2011/03/15 16:00:22.000,Variant 426,426,Detail_IW-Frozen
+Case 680,Stress,Value 13,2011/03/15 16:00:26.000,Variant 579,579,Detail_IW-Frozen
+Case 680,M_P,Value 18,2011/03/15 16:00:58.000,Variant 579,579,Detail_IW-Frozen
+Case 47,Process Creation,Value 2,2011/03/15 17:00:16.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 47,release_state,Value 9,2011/03/15 17:00:21.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 490,Weight,Value 3,2011/03/15 17:00:44.000,Variant 88,88,Detail_IW-Frozen
+Case 680,Weight,Value 3,2011/03/15 18:00:01.000,Variant 579,579,Detail_IW-Frozen
+Case 71,Process Creation,Value 30,2011/03/15 18:00:15.000,Variant 244,244,Detail_IW-Frozen
+Case 490,Design Checker,Value 1,2011/03/15 19:00:24.000,Variant 88,88,Detail_IW-Frozen
+Case 458,Design Lead,Value 91,2011/03/16 09:00:13.000,Variant 101,101,Detail_IW-Frozen
+Case 1141,CRA,Value 39,2011/03/16 12:00:03.000,Variant 3,3,Detail_IW-Frozen
+Case 1248,CRA,Value 39,2011/03/16 12:00:06.000,Variant 337,337,Detail_IW-Frozen
+Case 1226,CRA,Value 39,2011/03/16 12:00:08.000,Variant 3,3,Detail_IW-Frozen
+Case 71,CRA,Value 39,2011/03/16 12:00:11.000,Variant 244,244,Detail_IW-Frozen
+Case 1248,M_P,Value 6,2011/03/16 12:00:41.000,Variant 337,337,Detail_IW-Frozen
+Case 71,M_P,Value 6,2011/03/16 12:00:52.000,Variant 244,244,Detail_IW-Frozen
+Case 1265,Process Creation,Value 36,2011/03/16 13:00:27.000,Variant 3,3,Detail_IW-Frozen
+Case 71,ME Assembly Checker,Value 5,2011/03/16 15:00:07.000,Variant 244,244,Detail_IW-Frozen
+Case 71,ME Fabrication Checker,Value 5,2011/03/16 15:00:07.000,Variant 244,244,Detail_IW-Frozen
+Case 1248,ME Assembly Checker,Value 29,2011/03/16 15:00:20.000,Variant 337,337,Detail_IW-Frozen
+Case 314,CRA,Value 39,2011/03/16 16:00:29.000,Variant 426,426,Detail_IW-Frozen
+Case 314,M_P,Value 18,2011/03/16 16:00:44.000,Variant 426,426,Detail_IW-Frozen
+Case 314,ME Fabrication Checker,Value 5,2011/03/16 16:00:52.000,Variant 426,426,Detail_IW-Frozen
+Case 314,ME Assembly Checker,Value 5,2011/03/16 16:00:53.000,Variant 426,426,Detail_IW-Frozen
+Case 314,Design Checker,Value 1,2011/03/16 19:00:47.000,Variant 426,426,Detail_IW-Frozen
+Case 71,Design Checker,Value 1,2011/03/16 19:00:48.000,Variant 244,244,Detail_IW-Frozen
+Case 490,Stress,Value 23,2011/03/18 10:00:41.000,Variant 88,88,Detail_IW-Frozen
+Case 459,Process Creation,Value 2,2011/03/18 11:00:44.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 459,release_state,Value 9,2011/03/18 11:00:45.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 680,ME Fabrication Checker,Value 87,2011/03/18 16:00:43.000,Variant 579,579,Detail_IW-Frozen
+Case 71,Weight,Value 3,2011/03/21 08:00:42.000,Variant 244,244,Detail_IW-Frozen
+Case 314,Weight,Value 3,2011/03/21 08:00:42.000,Variant 426,426,Detail_IW-Frozen
+Case 1248,Weight,Value 3,2011/03/21 09:00:22.000,Variant 337,337,Detail_IW-Frozen
+Case 26,Process Creation,Value 24,2011/03/21 09:00:23.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 26,EngSupplierDesign Lead,Value 24,2011/03/21 09:00:25.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 680,Design Checker,Value 14,2011/03/21 09:00:44.000,Variant 579,579,Detail_IW-Frozen
+Case 680,Design Lead,Value 14,2011/03/21 09:00:50.000,Variant 579,579,Detail_IW-Frozen
+Case 1188,Process Creation,Value 56,2011/03/21 10:00:10.000,Variant 3,3,Detail_IW-Frozen
+Case 27,Process Creation,Value 24,2011/03/21 10:00:57.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 27,EngSupplierDesign Lead,Value 24,2011/03/21 10:00:59.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 807,release_state,Value 9,2011/03/21 12:00:16.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 941,Process Creation,Value 36,2011/03/21 14:00:37.000,Variant 336,336,Detail_IW-Frozen
+Case 568,Process Creation,Value 85,2011/03/21 15:00:39.000,Variant 36,36,Raw_xxx_ELEC_IW-Final_Rel
+Case 1265,CRA,Value 39,2011/03/21 15:00:45.000,Variant 3,3,Detail_IW-Frozen
+Case 1006,Process Creation,Value 85,2011/03/21 16:00:05.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 1188,CRA,Value 39,2011/03/21 16:00:25.000,Variant 3,3,Detail_IW-Frozen
+Case 950,Process Creation,Value 73,2011/03/21 16:00:57.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 950,EngSupplierDesign Lead,Value 73,2011/03/21 16:00:58.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1095,Process Creation,Value 73,2011/03/21 17:00:04.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1095,EngSupplierDesign Lead,Value 73,2011/03/21 17:00:04.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1006,M_P,Value 6,2011/03/21 17:00:08.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 1189,Process Creation,Value 56,2011/03/22 09:00:23.000,Variant 104,104,Detail_IW-Frozen
+Case 568,ME Prod Material Analist,Value 86,2011/03/22 09:00:53.000,Variant 36,36,Raw_xxx_ELEC_IW-Final_Rel
+Case 1142,Process Creation,Value 65,2011/03/22 09:00:58.000,Variant 3,3,Detail_IW-Frozen
+Case 373,Process Creation,Value 36,2011/03/22 10:00:31.000,Variant 216,216,Detail_IW-Frozen
+Case 1006,ME Prod Material Analist,Value 86,2011/03/22 11:00:00.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 490,ME Assembly Checker,Value 12,2011/03/22 13:00:10.000,Variant 88,88,Detail_IW-Frozen
+Case 490,ME Fabrication Checker,Value 12,2011/03/22 13:00:10.000,Variant 88,88,Detail_IW-Frozen
+Case 1043,Process Creation,Value 46,2011/03/22 14:00:44.000,Variant 3,3,Detail_IW-Frozen
+Case 1248,ME Fabrication Checker,Value 17,2011/03/22 14:00:44.000,Variant 337,337,Detail_IW-Frozen
+Case 490,Design Lead,Value 7,2011/03/22 14:00:46.000,Variant 88,88,Detail_IW-Frozen
+Case 1203,WP Lead,Value 25,2011/03/22 15:00:13.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1189,CRA,Value 39,2011/03/22 15:00:43.000,Variant 104,104,Detail_IW-Frozen
+Case 941,CRA,Value 39,2011/03/22 15:00:51.000,Variant 336,336,Detail_IW-Frozen
+Case 1142,CRA,Value 39,2011/03/22 15:00:54.000,Variant 3,3,Detail_IW-Frozen
+Case 373,CRA,Value 39,2011/03/22 15:00:55.000,Variant 216,216,Detail_IW-Frozen
+Case 1043,CRA,Value 39,2011/03/22 15:00:57.000,Variant 3,3,Detail_IW-Frozen
+Case 1006,Stress,Value 90,2011/03/22 16:00:15.000,Variant 17,17,Det_xxx_ELEC_IW-Final_Rel
+Case 1189,Design Checker,Value 46,2011/03/22 16:00:15.000,Variant 104,104,Detail_IW-Frozen
+Case 941,M_P,Value 6,2011/03/22 16:00:16.000,Variant 336,336,Detail_IW-Frozen
+Case 1189,M_P,Value 18,2011/03/22 16:00:18.000,Variant 104,104,Detail_IW-Frozen
+Case 373,M_P,Value 6,2011/03/22 16:00:22.000,Variant 216,216,Detail_IW-Frozen
+Case 1036,Process Creation,Value 95,2011/03/22 16:00:28.000,Variant 16,16,Detail_IW-Frozen
+Case 568,M_P,Value 18,2011/03/22 16:00:34.000,Variant 36,36,Raw_xxx_ELEC_IW-Final_Rel
+Case 568,Stress,Value 90,2011/03/22 16:00:47.000,Variant 36,36,Raw_xxx_ELEC_IW-Final_Rel
+Case 1203,CRA,Value 39,2011/03/22 16:00:48.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1189,Weight,Value 3,2011/03/22 16:00:57.000,Variant 104,104,Detail_IW-Frozen
+Case 1189,Stress,Value 13,2011/03/22 17:00:28.000,Variant 104,104,Detail_IW-Frozen
+Case 1204,Process Creation,Value 24,2011/03/22 18:00:32.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1204,EngSupplierDesign Lead,Value 24,2011/03/22 18:00:46.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1044,Process Creation,Value 46,2011/03/22 19:00:25.000,Variant 233,233,Detail_IW-Frozen
+Case 373,Weight,Value 3,2011/03/23 08:00:39.000,Variant 216,216,Detail_IW-Frozen
+Case 373,ME Assembly Checker,Value 29,2011/03/23 08:00:47.000,Variant 216,216,Detail_IW-Frozen
+Case 1189,ME Assembly Checker,Value 29,2011/03/23 08:00:58.000,Variant 104,104,Detail_IW-Frozen
+Case 941,ME Assembly Checker,Value 29,2011/03/23 09:00:30.000,Variant 336,336,Detail_IW-Frozen
+Case 1204,Stress WP Lead,Value 27,2011/03/23 10:00:51.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 573,Process Creation,Value 8,2011/03/23 11:00:53.000,Variant 1,1,F-assy_Frozen-Final_Rel
+Case 573,release_state,Value 9,2011/03/23 11:00:53.000,Variant 1,1,F-assy_Frozen-Final_Rel
+Case 786,release_state,Value 9,2011/03/23 12:00:03.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 373,ME Fabrication Checker,Value 37,2011/03/23 12:00:06.000,Variant 216,216,Detail_IW-Frozen
+Case 1189,ME Fabrication Checker,Value 43,2011/03/23 12:00:10.000,Variant 104,104,Detail_IW-Frozen
+Case 825,Process Creation,Value 8,2011/03/23 12:00:25.000,Variant 1,1,F-assy_Frozen-Final_Rel
+Case 825,release_state,Value 9,2011/03/23 12:00:26.000,Variant 1,1,F-assy_Frozen-Final_Rel
+Case 1266,Process Creation,Value 36,2011/03/23 12:00:46.000,Variant 2,2,Detail_IW-Frozen
+Case 979,Process Creation,Value 82,2011/03/23 14:00:25.000,Variant 2,2,Assembly_IW-Frozen
+Case 941,Weight,Value 3,2011/03/23 14:00:45.000,Variant 336,336,Detail_IW-Frozen
+Case 941,ME Fabrication Checker,Value 37,2011/03/23 15:00:31.000,Variant 336,336,Detail_IW-Frozen
+Case 1044,CRA,Value 39,2011/03/23 16:00:10.000,Variant 233,233,Detail_IW-Frozen
+Case 1036,CRA,Value 45,2011/03/23 16:00:11.000,Variant 16,16,Detail_IW-Frozen
+Case 1044,Weight,Value 3,2011/03/23 16:00:40.000,Variant 233,233,Detail_IW-Frozen
+Case 1036,Weight,Value 3,2011/03/23 16:00:53.000,Variant 16,16,Detail_IW-Frozen
+Case 1044,Stress,Value 13,2011/03/23 17:00:22.000,Variant 233,233,Detail_IW-Frozen
+Case 1044,M_P,Value 18,2011/03/23 17:00:28.000,Variant 233,233,Detail_IW-Frozen
+Case 1036,M_P,Value 6,2011/03/23 17:00:53.000,Variant 16,16,Detail_IW-Frozen
+Case 1044,ME Assembly Checker,Value 29,2011/03/24 09:00:25.000,Variant 233,233,Detail_IW-Frozen
+Case 1000,Process Creation,Value 66,2011/03/24 09:00:26.000,Variant 2,2,Detail_IW-Frozen
+Case 492,Process Creation,Value 92,2011/03/24 10:00:09.000,Variant 2,2,Assembly_IW-Frozen
+Case 177,Process Creation,Value 36,2011/03/24 10:00:27.000,Variant 2,2,Detail_IW-Frozen
+Case 81,Process Creation,Value 19,2011/03/24 12:00:30.000,Variant 2,2,Assembly_IW-Frozen
+Case 596,ME Fabrication Checker,Value 43,2011/03/24 16:00:24.000,Variant 690,690,Detail_IW-Frozen
+Case 93,Process Creation,Value 46,2011/03/24 17:00:00.000,Variant 3,3,Detail_IW-Frozen
+Case 1044,ME Fabrication Checker,Value 43,2011/03/24 17:00:01.000,Variant 233,233,Detail_IW-Frozen
+Case 1044,Design Checker,Value 14,2011/03/24 17:00:20.000,Variant 233,233,Detail_IW-Frozen
+Case 596,Design Lead,Value 14,2011/03/24 18:00:00.000,Variant 690,690,Detail_IW-Frozen
+Case 1044,Design Lead,Value 14,2011/03/24 18:00:02.000,Variant 233,233,Detail_IW-Frozen
+Case 1313,Process Creation,Value 72,2011/03/24 18:00:02.000,Variant 2,2,Detail_IW-Frozen
+Case 1189,Design Lead,Value 14,2011/03/24 18:00:15.000,Variant 104,104,Detail_IW-Frozen
+Case 1001,Process Creation,Value 66,2011/03/25 11:00:10.000,Variant 16,16,Detail_IW-Frozen
+Case 1036,ME Assembly Checker,Value 37,2011/03/25 11:00:50.000,Variant 16,16,Detail_IW-Frozen
+Case 1036,ME Fabrication Checker,Value 37,2011/03/25 11:00:51.000,Variant 16,16,Detail_IW-Frozen
+Case 1204,WP Lead,Value 25,2011/03/25 13:00:57.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1036,Design Checker,Value 62,2011/03/25 14:00:45.000,Variant 16,16,Detail_IW-Frozen
+Case 93,CRA,Value 2,2011/03/25 15:00:12.000,Variant 3,3,Detail_IW-Frozen
+Case 990,Process Creation,Value 1,2011/03/25 16:00:05.000,Variant 16,16,Detail_IW-Frozen
+Case 1267,Process Creation,Value 36,2011/03/25 16:00:08.000,Variant 3,3,Detail_IW-Frozen
+Case 94,Process Creation,Value 46,2011/03/25 16:00:42.000,Variant 296,296,Detail_IW-Frozen
+Case 178,Process Creation,Value 36,2011/03/25 17:00:19.000,Variant 3,3,Detail_IW-Frozen
+Case 1314,Process Creation,Value 46,2011/03/25 17:00:43.000,Variant 468,468,Detail_IW-Frozen
+Case 941,Stress,Value 38,2011/03/26 11:00:32.000,Variant 336,336,Detail_IW-Frozen
+Case 373,Stress,Value 38,2011/03/26 11:00:33.000,Variant 216,216,Detail_IW-Frozen
+Case 1036,Stress,Value 38,2011/03/26 11:00:35.000,Variant 16,16,Detail_IW-Frozen
+Case 491,Process Creation,Value 8,2011/03/26 13:00:28.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 491,release_state,Value 9,2011/03/26 13:00:30.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1036,Design Lead,Value 54,2011/03/28 09:00:39.000,Variant 16,16,Detail_IW-Frozen
+Case 373,Design Checker,Value 35,2011/03/28 10:00:10.000,Variant 216,216,Detail_IW-Frozen
+Case 941,Design Checker,Value 35,2011/03/28 10:00:10.000,Variant 336,336,Detail_IW-Frozen
+Case 1001,CRA,Value 2,2011/03/28 10:00:20.000,Variant 16,16,Detail_IW-Frozen
+Case 178,CRA,Value 2,2011/03/28 10:00:21.000,Variant 3,3,Detail_IW-Frozen
+Case 990,CRA,Value 2,2011/03/28 10:00:21.000,Variant 16,16,Detail_IW-Frozen
+Case 1267,CRA,Value 2,2011/03/28 10:00:21.000,Variant 3,3,Detail_IW-Frozen
+Case 94,CRA,Value 2,2011/03/28 10:00:23.000,Variant 296,296,Detail_IW-Frozen
+Case 1314,CRA,Value 2,2011/03/28 10:00:23.000,Variant 468,468,Detail_IW-Frozen
+Case 94,Stress,Value 13,2011/03/28 10:00:28.000,Variant 296,296,Detail_IW-Frozen
+Case 990,Weight,Value 3,2011/03/28 10:00:38.000,Variant 16,16,Detail_IW-Frozen
+Case 1001,Weight,Value 3,2011/03/28 10:00:38.000,Variant 16,16,Detail_IW-Frozen
+Case 94,Weight,Value 3,2011/03/28 10:00:54.000,Variant 296,296,Detail_IW-Frozen
+Case 1314,Weight,Value 3,2011/03/28 10:00:55.000,Variant 468,468,Detail_IW-Frozen
+Case 373,Design Lead,Value 7,2011/03/28 10:00:57.000,Variant 216,216,Detail_IW-Frozen
+Case 94,M_P,Value 18,2011/03/28 11:00:25.000,Variant 296,296,Detail_IW-Frozen
+Case 990,M_P,Value 6,2011/03/28 11:00:25.000,Variant 16,16,Detail_IW-Frozen
+Case 1314,M_P,Value 18,2011/03/28 11:00:25.000,Variant 468,468,Detail_IW-Frozen
+Case 94,Design Checker,Value 14,2011/03/28 11:00:41.000,Variant 296,296,Detail_IW-Frozen
+Case 1314,Design Checker,Value 14,2011/03/28 11:00:42.000,Variant 468,468,Detail_IW-Frozen
+Case 1314,ME Assembly Checker,Value 29,2011/03/28 11:00:46.000,Variant 468,468,Detail_IW-Frozen
+Case 94,ME Assembly Checker,Value 29,2011/03/28 11:00:47.000,Variant 296,296,Detail_IW-Frozen
+Case 1001,M_P,Value 6,2011/03/28 11:00:56.000,Variant 16,16,Detail_IW-Frozen
+Case 941,Design Lead,Value 91,2011/03/28 12:00:02.000,Variant 336,336,Detail_IW-Frozen
+Case 990,ME Assembly Checker,Value 5,2011/03/28 12:00:11.000,Variant 16,16,Detail_IW-Frozen
+Case 990,ME Fabrication Checker,Value 5,2011/03/28 12:00:11.000,Variant 16,16,Detail_IW-Frozen
+Case 1001,ME Assembly Checker,Value 5,2011/03/28 12:00:32.000,Variant 16,16,Detail_IW-Frozen
+Case 1001,ME Fabrication Checker,Value 5,2011/03/28 12:00:32.000,Variant 16,16,Detail_IW-Frozen
+Case 1314,Stress,Value 13,2011/03/28 14:00:37.000,Variant 468,468,Detail_IW-Frozen
+Case 94,ME Fabrication Checker,Value 43,2011/03/28 19:00:20.000,Variant 296,296,Detail_IW-Frozen
+Case 1314,ME Fabrication Checker,Value 43,2011/03/28 19:00:20.000,Variant 468,468,Detail_IW-Frozen
+Case 94,Design Lead,Value 14,2011/03/28 19:00:49.000,Variant 296,296,Detail_IW-Frozen
+Case 1314,Design Lead,Value 14,2011/03/28 19:00:53.000,Variant 468,468,Detail_IW-Frozen
+Case 1001,Design Checker,Value 1,2011/03/29 08:00:34.000,Variant 16,16,Detail_IW-Frozen
+Case 990,Design Checker,Value 1,2011/03/29 08:00:35.000,Variant 16,16,Detail_IW-Frozen
+Case 28,Process Creation,Value 24,2011/03/29 12:00:04.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 951,Process Creation,Value 73,2011/03/29 12:00:06.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 951,EngSupplierDesign Lead,Value 73,2011/03/29 12:00:11.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 28,EngSupplierDesign Lead,Value 24,2011/03/29 12:00:20.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 511,Process Creation,Value 73,2011/03/29 12:00:48.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 511,EngSupplierDesign Lead,Value 73,2011/03/29 12:00:49.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1268,Process Creation,Value 36,2011/03/29 14:00:07.000,Variant 3,3,Detail_IW-Frozen
+Case 1037,Process Creation,Value 2,2011/03/29 17:00:31.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1037,release_state,Value 9,2011/03/29 17:00:33.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1248,Design Checker,Value 35,2011/03/30 08:00:39.000,Variant 337,337,Detail_IW-Frozen
+Case 1248,Stress,Value 38,2011/03/30 09:00:54.000,Variant 337,337,Detail_IW-Frozen
+Case 1268,CRA,Value 2,2011/03/30 10:00:22.000,Variant 3,3,Detail_IW-Frozen
+Case 1248,Design Lead,Value 91,2011/03/30 12:00:47.000,Variant 337,337,Detail_IW-Frozen
+Case 512,Process Creation,Value 73,2011/03/30 15:00:07.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 512,EngSupplierDesign Lead,Value 73,2011/03/30 15:00:08.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 82,Process Creation,Value 19,2011/03/30 16:00:32.000,Variant 2,2,Assembly_IW-Frozen
+Case 1091,Process Creation,Value 24,2011/03/30 16:00:47.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 493,Process Creation,Value 92,2011/03/30 16:00:49.000,Variant 2,2,Assembly_IW-Frozen
+Case 990,Stress,Value 23,2011/03/30 17:00:04.000,Variant 16,16,Detail_IW-Frozen
+Case 1001,Stress,Value 23,2011/03/30 17:00:06.000,Variant 16,16,Detail_IW-Frozen
+Case 1001,Design Lead,Value 7,2011/03/30 17:00:06.000,Variant 16,16,Detail_IW-Frozen
+Case 1091,EngSupplierDesign Lead,Value 24,2011/03/30 17:00:08.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 990,Design Lead,Value 7,2011/03/30 17:00:10.000,Variant 16,16,Detail_IW-Frozen
+Case 980,Process Creation,Value 15,2011/03/30 17:00:29.000,Variant 2,2,Assembly_IW-Frozen
+Case 314,Stress,Value 4,2011/03/30 18:00:06.000,Variant 426,426,Detail_IW-Frozen
+Case 314,Design Lead,Value 7,2011/03/30 18:00:28.000,Variant 426,426,Detail_IW-Frozen
+Case 744,Process Creation,Value 62,2011/03/31 11:00:12.000,Variant 3,3,Detail_IW-Frozen
+Case 992,Process Creation,Value 89,2011/03/31 12:00:35.000,Variant 2,2,Detail_IW-Frozen
+Case 681,Process Creation,Value 44,2011/03/31 12:00:51.000,Variant 2,2,Detail_Frozen-Final_Rel
+Case 1190,Process Creation,Value 45,2011/03/31 14:00:10.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1190,release_state,Value 9,2011/03/31 14:00:11.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1045,Process Creation,Value 44,2011/03/31 14:00:17.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1045,release_state,Value 9,2011/03/31 14:00:27.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 597,Process Creation,Value 8,2011/03/31 14:00:35.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 597,release_state,Value 9,2011/03/31 14:00:36.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1055,Process Creation,Value 8,2011/03/31 15:00:43.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1055,release_state,Value 9,2011/03/31 15:00:44.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 225,Process Creation,Value 44,2011/03/31 16:00:59.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 225,release_state,Value 9,2011/03/31 17:00:00.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 83,Process Creation,Value 19,2011/04/01 09:00:46.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,Process Creation,Value 15,2011/04/01 10:00:23.000,Variant 12,12,Assembly_IW-Frozen
+Case 579,release_state,Value 9,2011/04/01 11:00:16.000,Variant 1,1,Detail_F-assy_IW-Pending
+Case 494,Process Creation,Value 92,2011/04/01 15:00:51.000,Variant 12,12,Assembly_IW-Frozen
+Case 744,CRA,Value 2,2011/04/01 15:00:54.000,Variant 3,3,Detail_IW-Frozen
+Case 1003,Process Creation,Value 30,2011/04/01 16:00:31.000,Variant 2,2,Detail_IW-Frozen
+Case 71,Stress,Value 4,2011/04/01 17:00:13.000,Variant 244,244,Detail_IW-Frozen
+Case 71,Design Lead,Value 7,2011/04/02 10:00:05.000,Variant 244,244,Detail_IW-Frozen
+Case 1002,Process Creation,Value 8,2011/04/02 11:00:56.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1002,release_state,Value 9,2011/04/02 11:00:58.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 991,Process Creation,Value 8,2011/04/02 12:00:11.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 991,release_state,Value 9,2011/04/02 12:00:12.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 315,Process Creation,Value 8,2011/04/02 13:00:43.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 315,release_state,Value 9,2011/04/02 13:00:44.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1269,Process Creation,Value 36,2011/04/04 10:00:27.000,Variant 208,208,Detail_IW-Frozen
+Case 1227,Process Creation,Value 36,2011/04/04 10:00:43.000,Variant 3,3,Detail_IW-Frozen
+Case 745,Process Creation,Value 62,2011/04/04 12:00:10.000,Variant 3,3,Detail_IW-Frozen
+Case 72,Process Creation,Value 8,2011/04/04 12:00:33.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 72,release_state,Value 9,2011/04/04 12:00:35.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 513,Process Creation,Value 73,2011/04/04 15:00:51.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 513,EngSupplierDesign Lead,Value 73,2011/04/04 15:00:52.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 993,Process Creation,Value 89,2011/04/04 16:00:36.000,Variant 2,2,Detail_IW-Frozen
+Case 942,Process Creation,Value 8,2011/04/04 16:00:45.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 942,release_state,Value 9,2011/04/04 16:00:47.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 374,Process Creation,Value 8,2011/04/04 16:00:51.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 374,release_state,Value 9,2011/04/04 16:00:53.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 95,Process Creation,Value 2,2011/04/04 17:00:14.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1315,Process Creation,Value 44,2011/04/04 17:00:27.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1315,release_state,Value 9,2011/04/04 17:00:29.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 95,release_state,Value 9,2011/04/04 17:00:32.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 745,CRA,Value 2,2011/04/04 17:00:50.000,Variant 3,3,Detail_IW-Frozen
+Case 1227,CRA,Value 2,2011/04/04 18:00:09.000,Variant 3,3,Detail_IW-Frozen
+Case 1269,CRA,Value 2,2011/04/04 18:00:09.000,Variant 208,208,Detail_IW-Frozen
+Case 1004,Process Creation,Value 30,2011/04/05 08:00:48.000,Variant 97,97,Detail_IW-Frozen
+Case 1269,Weight,Value 3,2011/04/05 08:00:54.000,Variant 208,208,Detail_IW-Frozen
+Case 1269,Design Checker,Value 35,2011/04/05 08:00:55.000,Variant 208,208,Detail_IW-Frozen
+Case 1269,ME Assembly Checker,Value 37,2011/04/05 11:00:05.000,Variant 208,208,Detail_IW-Frozen
+Case 1269,ME Fabrication Checker,Value 37,2011/04/05 11:00:05.000,Variant 208,208,Detail_IW-Frozen
+Case 1269,M_P,Value 6,2011/04/05 11:00:19.000,Variant 208,208,Detail_IW-Frozen
+Case 952,Process Creation,Value 73,2011/04/05 11:00:56.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 952,EngSupplierDesign Lead,Value 73,2011/04/05 11:00:57.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 746,Process Creation,Value 62,2011/04/05 12:00:05.000,Variant 3,3,Detail_IW-Frozen
+Case 1181,Process Creation,Value 30,2011/04/05 12:00:22.000,Variant 2,2,Assembly_IW-Frozen
+Case 83,CRA,Value 8,2011/04/05 12:00:34.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,CRA,Value 8,2011/04/05 12:00:35.000,Variant 12,12,Assembly_IW-Frozen
+Case 494,CRA,Value 8,2011/04/05 12:00:36.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,Weight,Value 3,2011/04/05 12:00:41.000,Variant 12,12,Assembly_IW-Frozen
+Case 83,Weight,Value 3,2011/04/05 12:00:45.000,Variant 12,12,Assembly_IW-Frozen
+Case 494,Weight,Value 3,2011/04/05 13:00:32.000,Variant 12,12,Assembly_IW-Frozen
+Case 1269,Stress,Value 38,2011/04/05 14:00:20.000,Variant 208,208,Detail_IW-Frozen
+Case 494,M_P,Value 18,2011/04/05 15:00:10.000,Variant 12,12,Assembly_IW-Frozen
+Case 1092,Process Creation,Value 24,2011/04/05 15:00:37.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1092,EngSupplierDesign Lead,Value 24,2011/04/05 15:00:38.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1092,Stress WP Lead,Value 27,2011/04/05 15:00:41.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1004,CRA,Value 2,2011/04/05 15:00:48.000,Variant 97,97,Detail_IW-Frozen
+Case 1092,WP Lead,Value 25,2011/04/05 15:00:55.000,Variant 7,7,Detail_Supplier_IW-Frozen
+Case 1004,M_P,Value 6,2011/04/05 16:00:04.000,Variant 97,97,Detail_IW-Frozen
+Case 1228,Process Creation,Value 36,2011/04/05 16:00:14.000,Variant 3,3,Detail_IW-Frozen
+Case 83,M_P,Value 18,2011/04/05 16:00:22.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,M_P,Value 18,2011/04/05 16:00:24.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,Design Checker,Value 19,2011/04/05 16:00:52.000,Variant 12,12,Assembly_IW-Frozen
+Case 83,Design Checker,Value 19,2011/04/05 16:00:53.000,Variant 12,12,Assembly_IW-Frozen
+Case 494,Design Checker,Value 19,2011/04/05 16:00:53.000,Variant 12,12,Assembly_IW-Frozen
+Case 83,ME Assembly Checker,Value 17,2011/04/05 17:00:03.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,ME Assembly Checker,Value 17,2011/04/05 17:00:03.000,Variant 12,12,Assembly_IW-Frozen
+Case 746,CRA,Value 2,2011/04/05 18:00:29.000,Variant 3,3,Detail_IW-Frozen
+Case 1004,Design Checker,Value 1,2011/04/06 08:00:09.000,Variant 97,97,Detail_IW-Frozen
+Case 1004,Weight,Value 3,2011/04/06 08:00:09.000,Variant 97,97,Detail_IW-Frozen
+Case 1269,Design Lead,Value 91,2011/04/06 08:00:55.000,Variant 208,208,Detail_IW-Frozen
+Case 75,Process Creation,Value 40,2011/04/06 09:00:13.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 75,EngSupplierDesign Lead,Value 41,2011/04/06 09:00:18.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 747,Process Creation,Value 62,2011/04/06 10:00:37.000,Variant 3,3,Detail_IW-Frozen
+Case 994,Process Creation,Value 89,2011/04/06 15:00:40.000,Variant 3,3,Detail_IW-Frozen
+Case 1205,Process Creation,Value 24,2011/04/06 17:00:11.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1205,EngSupplierDesign Lead,Value 24,2011/04/06 17:00:12.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1228,CRA,Value 8,2011/04/06 17:00:24.000,Variant 3,3,Detail_IW-Frozen
+Case 76,Process Creation,Value 40,2011/04/06 18:00:09.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 494,ME Assembly Checker,Value 29,2011/04/07 08:00:14.000,Variant 12,12,Assembly_IW-Frozen
+Case 76,EngSupplierDesign Lead,Value 41,2011/04/07 08:00:43.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1205,Stress WP Lead,Value 27,2011/04/07 08:00:48.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 494,Stress,Value 4,2011/04/07 09:00:32.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,Stress,Value 4,2011/04/07 09:00:32.000,Variant 12,12,Assembly_IW-Frozen
+Case 83,Stress,Value 4,2011/04/07 09:00:33.000,Variant 12,12,Assembly_IW-Frozen
+Case 83,Design Lead,Value 20,2011/04/07 10:00:39.000,Variant 12,12,Assembly_IW-Frozen
+Case 981,Design Lead,Value 20,2011/04/07 10:00:40.000,Variant 12,12,Assembly_IW-Frozen
+Case 494,Design Lead,Value 20,2011/04/07 10:00:43.000,Variant 12,12,Assembly_IW-Frozen
+Case 1205,WP Lead,Value 25,2011/04/07 12:00:11.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 994,CRA,Value 8,2011/04/07 14:00:35.000,Variant 3,3,Detail_IW-Frozen
+Case 77,Process Creation,Value 40,2011/04/07 15:00:10.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 77,EngSupplierDesign Lead,Value 41,2011/04/07 15:00:33.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1249,Process Creation,Value 2,2011/04/07 16:00:07.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1249,release_state,Value 9,2011/04/07 16:00:09.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 29,Process Creation,Value 24,2011/04/07 16:00:15.000,Variant 2,2,Detail_Supplier_IW-Frozen
+Case 30,Process Creation,Value 24,2011/04/07 16:00:26.000,Variant 2,2,Detail_Supplier_IW-Frozen
+Case 1093,Process Creation,Value 24,2011/04/07 17:00:12.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1093,EngSupplierDesign Lead,Value 24,2011/04/07 17:00:13.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 31,Process Creation,Value 24,2011/04/07 17:00:26.000,Variant 2,2,Detail_Supplier_IW-Frozen
+Case 32,Process Creation,Value 24,2011/04/07 17:00:37.000,Variant 2,2,Detail_Supplier_IW-Frozen
+Case 1229,Process Creation,Value 36,2011/04/08 09:00:10.000,Variant 2,2,Detail_IW-Frozen
+Case 1205,CRA,Value 2,2011/04/08 12:00:16.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1093,Stress WP Lead,Value 27,2011/04/08 12:00:22.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1093,WP Lead,Value 25,2011/04/08 14:00:41.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 33,Process Creation,Value 24,2011/04/08 15:00:33.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 33,EngSupplierDesign Lead,Value 24,2011/04/08 15:00:38.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1230,Process Creation,Value 36,2011/04/08 15:00:48.000,Variant 16,16,Detail_IW-Frozen
+Case 1093,CRA,Value 2,2011/04/08 15:00:58.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1093,ME Assembly Checker,Value 29,2011/04/08 16:00:06.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1093,Stress,Value 4,2011/04/08 16:00:12.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1093,Weight,Value 3,2011/04/08 16:00:13.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 33,Stress WP Lead,Value 27,2011/04/08 17:00:33.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1093,ME Fabrication Checker,Value 17,2011/04/11 09:00:36.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1182,Process Creation,Value 30,2011/04/11 10:00:18.000,Variant 2,2,Assembly_IW-Frozen
+Case 1093,M_P,Value 6,2011/04/11 10:00:29.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1230,CRA,Value 8,2011/04/11 11:00:25.000,Variant 16,16,Detail_IW-Frozen
+Case 1093,Design Lead,Value 7,2011/04/11 11:00:32.000,Variant 182,182,Detail_Supplier_IW-Frozen
+Case 1230,Weight,Value 3,2011/04/11 11:00:45.000,Variant 16,16,Detail_IW-Frozen
+Case 1230,M_P,Value 6,2011/04/11 12:00:13.000,Variant 16,16,Detail_IW-Frozen
+Case 1230,ME Assembly Checker,Value 37,2011/04/11 12:00:32.000,Variant 16,16,Detail_IW-Frozen
+Case 1230,ME Fabrication Checker,Value 37,2011/04/11 12:00:33.000,Variant 16,16,Detail_IW-Frozen
+Case 1270,Process Creation,Value 8,2011/04/11 14:00:31.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1270,release_state,Value 9,2011/04/11 14:00:32.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 179,Process Creation,Value 36,2011/04/11 15:00:27.000,Variant 3,3,Detail_IW-Frozen
+Case 747,CRA,Value 2,2011/04/11 16:00:01.000,Variant 3,3,Detail_IW-Frozen
+Case 33,WP Lead,Value 25,2011/04/11 16:00:57.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 1004,ME Assembly Checker,Value 12,2011/04/11 19:00:54.000,Variant 97,97,Detail_IW-Frozen
+Case 1004,ME Fabrication Checker,Value 12,2011/04/11 19:00:54.000,Variant 97,97,Detail_IW-Frozen
+Case 33,CRA,Value 2,2011/04/12 09:00:08.000,Variant 8,8,Detail_Supplier_IW-Frozen
+Case 179,CRA,Value 2,2011/04/12 09:00:08.000,Variant 3,3,Detail_IW-Frozen
+Case 1004,Stress,Value 4,2011/04/12 10:00:04.000,Variant 97,97,Detail_IW-Frozen
+Case 1004,Design Lead,Value 7,2011/04/12 10:00:48.000,Variant 97,97,Detail_IW-Frozen
+Case 78,Process Creation,Value 40,2011/04/12 11:00:02.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 995,Process Creation,Value 89,2011/04/12 12:00:15.000,Variant 363,363,Detail_IW-Frozen
+Case 78,EngSupplierDesign Lead,Value 41,2011/04/12 12:00:36.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 78,WP Lead,Value 32,2011/04/12 12:00:41.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1206,Process Creation,Value 24,2011/04/12 14:00:44.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1206,EngSupplierDesign Lead,Value 24,2011/04/12 14:00:51.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1206,Stress WP Lead,Value 27,2011/04/12 14:00:56.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 78,Stress WP Lead,Value 42,2011/04/12 15:00:48.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1276,Process Creation,Value 36,2011/04/12 17:00:30.000,Variant 3,3,Detail_IW-Frozen
+Case 1005,Process Creation,Value 8,2011/04/12 17:00:31.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1005,release_state,Value 9,2011/04/12 17:00:33.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 78,CRA,Value 2,2011/04/13 11:00:22.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1276,CRA,Value 2,2011/04/13 11:00:23.000,Variant 3,3,Detail_IW-Frozen
+Case 1046,Process Creation,Value 31,2011/04/13 11:00:37.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 537,Process Creation,Value 31,2011/04/13 11:00:53.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 537,EngSupplierDesign Lead,Value 31,2011/04/13 11:00:54.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1046,EngSupplierDesign Lead,Value 31,2011/04/13 11:00:55.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 537,WP Lead,Value 32,2011/04/13 12:00:28.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1046,WP Lead,Value 32,2011/04/13 12:00:28.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1206,WP Lead,Value 28,2011/04/13 12:00:36.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1046,Stress WP Lead,Value 42,2011/04/13 12:00:47.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 537,Stress WP Lead,Value 42,2011/04/13 12:00:49.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1277,Process Creation,Value 36,2011/04/13 16:00:26.000,Variant 11,11,Detail_IW-Frozen
+Case 537,CRA,Value 2,2011/04/13 17:00:23.000,Variant 6,6,Detail_Supplier_IW-Frozen
+Case 1046,CRA,Value 2,2011/04/13 17:00:24.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1206,CRA,Value 2,2011/04/13 17:00:25.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 982,Process Creation,Value 44,2011/04/13 17:00:29.000,Variant 1,1,Assembly_Frozen-Final_Rel
+Case 982,release_state,Value 9,2011/04/13 17:00:30.000,Variant 1,1,Assembly_Frozen-Final_Rel
+Case 495,Process Creation,Value 44,2011/04/13 17:00:31.000,Variant 1,1,Assembly_Frozen-Final_Rel
+Case 495,release_state,Value 9,2011/04/13 17:00:31.000,Variant 1,1,Assembly_Frozen-Final_Rel
+Case 1,Process Creation,Value 1,2011/04/13 17:00:58.000,Variant 352,352,Detail_IW-Frozen
+Case 1046,Stress,Value 4,2011/04/13 18:00:10.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1230,Design Checker,Value 35,2011/04/13 18:00:36.000,Variant 16,16,Detail_IW-Frozen
+Case 1046,ME Assembly Checker,Value 29,2011/04/14 08:00:15.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1046,Weight,Value 3,2011/04/14 08:00:16.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1046,ME Fabrication Checker,Value 17,2011/04/14 08:00:29.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1206,ME Assembly Checker,Value 29,2011/04/14 09:00:14.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 79,Process Creation,Value 40,2011/04/14 10:00:21.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 79,EngSupplierDesign Lead,Value 41,2011/04/14 10:00:22.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1046,M_P,Value 6,2011/04/14 10:00:23.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 1046,Design Lead,Value 20,2011/04/14 10:00:24.000,Variant 180,180,Detail_Supplier_IW-Frozen
+Case 538,Process Creation,Value 31,2011/04/14 10:00:33.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 538,EngSupplierDesign Lead,Value 31,2011/04/14 10:00:33.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 79,WP Lead,Value 32,2011/04/14 10:00:35.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 538,WP Lead,Value 32,2011/04/14 10:00:35.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 79,Stress WP Lead,Value 42,2011/04/14 10:00:37.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 538,Stress WP Lead,Value 42,2011/04/14 10:00:37.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 1183,Process Creation,Value 30,2011/04/14 10:00:42.000,Variant 54,54,Assembly_IW-Frozen
+Case 1206,ME Fabrication Checker,Value 43,2011/04/14 15:00:14.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1,CRA,Value 2,2011/04/14 16:00:00.000,Variant 352,352,Detail_IW-Frozen
+Case 538,CRA,Value 2,2011/04/14 16:00:00.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 79,CRA,Value 2,2011/04/14 16:00:01.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1277,CRA,Value 2,2011/04/14 16:00:01.000,Variant 11,11,Detail_IW-Frozen
+Case 995,CRA,Value 2,2011/04/14 16:00:02.000,Variant 363,363,Detail_IW-Frozen
+Case 1,Weight,Value 3,2011/04/14 16:00:16.000,Variant 352,352,Detail_IW-Frozen
+Case 79,Weight,Value 3,2011/04/14 16:00:26.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1206,Stress,Value 4,2011/04/14 17:00:08.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1,Stress,Value 4,2011/04/14 17:00:10.000,Variant 352,352,Detail_IW-Frozen
+Case 79,ME Fabrication Checker,Value 43,2011/04/14 17:00:17.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 79,M_P,Value 18,2011/04/14 17:00:45.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1,Design Checker,Value 1,2011/04/14 18:00:23.000,Variant 352,352,Detail_IW-Frozen
+Case 995,ME Assembly Checker,Value 29,2011/04/15 08:00:20.000,Variant 363,363,Detail_IW-Frozen
+Case 538,ME Assembly Checker,Value 29,2011/04/15 08:00:35.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 1206,Weight,Value 3,2011/04/15 08:00:39.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 79,ME Assembly Checker,Value 29,2011/04/15 08:00:44.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 538,Weight,Value 3,2011/04/15 08:00:51.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 995,Weight,Value 3,2011/04/15 08:00:53.000,Variant 363,363,Detail_IW-Frozen
+Case 1277,Weight,Value 3,2011/04/15 08:00:56.000,Variant 11,11,Detail_IW-Frozen
+Case 1122,Process Creation,Value 66,2011/04/15 09:00:49.000,Variant 2,2,Assembly_IW-Frozen
+Case 748,Process Creation,Value 62,2011/04/15 10:00:29.000,Variant 3,3,Detail_IW-Frozen
+Case 1,ME Fabrication Checker,Value 5,2011/04/15 10:00:38.000,Variant 352,352,Detail_IW-Frozen
+Case 1,ME Assembly Checker,Value 5,2011/04/15 10:00:39.000,Variant 352,352,Detail_IW-Frozen
+Case 1094,Process Creation,Value 44,2011/04/15 10:00:48.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1094,release_state,Value 9,2011/04/15 10:00:49.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 538,M_P,Value 6,2011/04/15 11:00:20.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 995,M_P,Value 6,2011/04/15 11:00:22.000,Variant 363,363,Detail_IW-Frozen
+Case 538,ME Fabrication Checker,Value 74,2011/04/15 11:00:50.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 79,Stress,Value 23,2011/04/15 12:00:22.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1277,M_P,Value 6,2011/04/15 12:00:26.000,Variant 11,11,Detail_IW-Frozen
+Case 1206,M_P,Value 18,2011/04/15 12:00:29.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 1,M_P,Value 6,2011/04/15 12:00:40.000,Variant 352,352,Detail_IW-Frozen
+Case 1206,Design Lead,Value 20,2011/04/15 13:00:17.000,Variant 545,545,Detail_Supplier_IW-Frozen
+Case 748,CRA,Value 2,2011/04/15 15:00:00.000,Variant 3,3,Detail_IW-Frozen
+Case 538,Stress,Value 4,2011/04/15 15:00:44.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 538,Design Lead,Value 20,2011/04/15 16:00:34.000,Variant 273,273,Detail_Supplier_IW-Frozen
+Case 79,Design Lead,Value 14,2011/04/15 17:00:41.000,Variant 126,126,Detail_Supplier_IW-Frozen
+Case 1,Design Lead,Value 7,2011/04/15 19:00:10.000,Variant 352,352,Detail_IW-Frozen
+Case 2,Process Creation,Value 8,2011/04/16 12:00:35.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 2,release_state,Value 9,2011/04/16 12:00:37.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 995,Stress,Value 23,2011/04/18 11:00:46.000,Variant 363,363,Detail_IW-Frozen
+Case 995,ME Fabrication Checker,Value 17,2011/04/18 12:00:06.000,Variant 363,363,Detail_IW-Frozen
+Case 749,Process Creation,Value 62,2011/04/18 14:00:57.000,Variant 34,34,Detail_IW-Frozen
+Case 1277,Design Checker,Value 35,2011/04/18 15:00:39.000,Variant 11,11,Detail_IW-Frozen
+Case 904,Process Creation,Value 21,2011/04/18 17:00:12.000,Variant 2,2,Assembly_IW-Frozen
+Case 995,Design Checker,Value 14,2011/04/18 18:00:15.000,Variant 363,363,Detail_IW-Frozen
+Case 297,Process Creation,Value 66,2011/04/19 11:00:14.000,Variant 23,23,Assembly_IW-Frozen
+Case 544,Process Creation,Value 30,2011/04/19 11:00:22.000,Variant 2,2,Detail_IW-Frozen
+Case 1277,ME Assembly Checker,Value 37,2011/04/19 11:00:51.000,Variant 11,11,Detail_IW-Frozen
+Case 1277,ME Fabrication Checker,Value 37,2011/04/19 11:00:51.000,Variant 11,11,Detail_IW-Frozen
+Case 749,CRA,Value 2,2011/04/19 12:00:15.000,Variant 34,34,Detail_IW-Frozen
+Case 749,Weight,Value 3,2011/04/19 12:00:25.000,Variant 34,34,Detail_IW-Frozen
+Case 749,Design Checker,Value 62,2011/04/19 14:00:03.000,Variant 34,34,Detail_IW-Frozen
+Case 749,M_P,Value 6,2011/04/19 14:00:12.000,Variant 34,34,Detail_IW-Frozen
+Case 73,Process Creation,Value 30,2011/04/19 14:00:14.000,Variant 88,88,Detail_IW-Frozen
+Case 905,Process Creation,Value 21,2011/04/19 15:00:36.000,Variant 3,3,Assembly_IW-Frozen
+Case 1123,Process Creation,Value 66,2011/04/19 15:00:37.000,Variant 3,3,Assembly_IW-Frozen
+Case 749,Stress,Value 38,2011/04/19 15:00:48.000,Variant 34,34,Detail_IW-Frozen
+Case 749,ME Assembly Checker,Value 37,2011/04/20 11:00:08.000,Variant 34,34,Detail_IW-Frozen
+Case 749,ME Fabrication Checker,Value 37,2011/04/20 11:00:08.000,Variant 34,34,Detail_IW-Frozen
+Case 905,CRA,Value 22,2011/04/20 11:00:09.000,Variant 3,3,Assembly_IW-Frozen
+Case 995,Design Lead,Value 14,2011/04/20 12:00:13.000,Variant 363,363,Detail_IW-Frozen
+Case 80,Process Creation,Value 44,2011/04/20 12:00:39.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 80,release_state,Value 9,2011/04/20 12:00:45.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 14,Process Creation,Value 21,2011/04/20 12:00:46.000,Variant 3,3,Assembly_IW-Frozen
+Case 1207,Process Creation,Value 8,2011/04/20 13:00:00.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1207,release_state,Value 9,2011/04/20 13:00:03.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1123,CRA,Value 22,2011/04/20 14:00:17.000,Variant 3,3,Assembly_IW-Frozen
+Case 297,CRA,Value 22,2011/04/20 14:00:18.000,Variant 23,23,Assembly_IW-Frozen
+Case 297,M_P,Value 6,2011/04/20 14:00:48.000,Variant 23,23,Assembly_IW-Frozen
+Case 297,Design Checker,Value 1,2011/04/20 15:00:47.000,Variant 23,23,Assembly_IW-Frozen
+Case 297,Weight,Value 3,2011/04/20 16:00:01.000,Variant 23,23,Assembly_IW-Frozen
+Case 297,Stress,Value 4,2011/04/20 16:00:11.000,Variant 23,23,Assembly_IW-Frozen
+Case 749,Design Lead,Value 54,2011/04/21 08:00:50.000,Variant 34,34,Detail_IW-Frozen
+Case 14,CRA,Value 22,2011/04/21 11:00:48.000,Variant 3,3,Assembly_IW-Frozen
+Case 160,Process Creation,Value 31,2011/04/21 12:00:44.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 15,Process Creation,Value 21,2011/04/21 15:00:00.000,Variant 3,3,Assembly_IW-Frozen
+Case 73,CRA,Value 2,2011/04/21 15:00:48.000,Variant 88,88,Detail_IW-Frozen
+Case 73,M_P,Value 6,2011/04/21 16:00:01.000,Variant 88,88,Detail_IW-Frozen
+Case 73,Weight,Value 3,2011/04/21 16:00:11.000,Variant 88,88,Detail_IW-Frozen
+Case 73,Design Checker,Value 1,2011/04/21 16:00:57.000,Variant 88,88,Detail_IW-Frozen
+Case 15,CRA,Value 22,2011/04/21 17:00:12.000,Variant 3,3,Assembly_IW-Frozen
+Case 73,Stress,Value 4,2011/04/21 17:00:44.000,Variant 88,88,Detail_IW-Frozen
+Case 750,Process Creation,Value 8,2011/04/21 17:00:52.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 750,release_state,Value 9,2011/04/21 17:00:53.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1183,CRA,Value 22,2011/04/22 09:00:09.000,Variant 54,54,Assembly_IW-Frozen
+Case 545,Process Creation,Value 30,2011/04/22 09:00:55.000,Variant 3,3,Detail_IW-Frozen
+Case 160,EngSupplierDesign Lead,Value 31,2011/04/22 10:00:23.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 1183,M_P,Value 6,2011/04/22 10:00:47.000,Variant 54,54,Assembly_IW-Frozen
+Case 160,WP Lead,Value 32,2011/04/22 10:00:52.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 160,Stress WP Lead,Value 42,2011/04/22 10:00:54.000,Variant 5,5,Detail_Supplier_IW-Frozen
+Case 545,CRA,Value 2,2011/04/22 12:00:46.000,Variant 3,3,Detail_IW-Frozen
+Case 1183,Weight,Value 3,2011/04/22 14:00:09.000,Variant 54,54,Assembly_IW-Frozen
+Case 580,Process Creation,Value 95,2011/04/22 15:00:07.000,Variant 2,2,Detail_IW-Frozen
+Case 1183,Stress,Value 4,2011/04/22 15:00:22.000,Variant 54,54,Assembly_IW-Frozen
+Case 581,Process Creation,Value 95,2011/04/26 11:00:04.000,Variant 3,3,Detail_IW-Frozen
+Case 581,CRA,Value 45,2011/04/26 14:00:16.000,Variant 3,3,Detail_IW-Frozen
+Case 161,Process Creation,Value 31,2011/04/26 14:00:17.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,EngSupplierDesign Lead,Value 31,2011/04/26 14:00:25.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,WP Lead,Value 32,2011/04/26 15:00:08.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,Stress WP Lead,Value 42,2011/04/26 15:00:09.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,CRA,Value 45,2011/04/26 16:00:15.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,M_P,Value 6,2011/04/26 16:00:25.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,ME Fabrication Checker,Value 17,2011/04/27 08:00:54.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 73,ME Assembly Checker,Value 5,2011/04/27 09:00:47.000,Variant 88,88,Detail_IW-Frozen
+Case 73,ME Fabrication Checker,Value 5,2011/04/27 09:00:47.000,Variant 88,88,Detail_IW-Frozen
+Case 161,ME Assembly Checker,Value 17,2011/04/27 10:00:37.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,Stress,Value 4,2011/04/27 10:00:52.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 161,Weight,Value 3,2011/04/27 11:00:12.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 1047,Process Creation,Value 44,2011/04/27 12:00:54.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 1047,release_state,Value 9,2011/04/27 12:00:55.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 539,Process Creation,Value 44,2011/04/27 14:00:23.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 539,release_state,Value 9,2011/04/27 14:00:25.000,Variant 1,1,Detail_Frozen-Final_Rel
+Case 161,Design Lead,Value 20,2011/04/27 17:00:20.000,Variant 114,114,Detail_Supplier_IW-Frozen
+Case 73,Design Lead,Value 7,2011/04/28 10:00:15.000,Variant 88,88,Detail_IW-Frozen
+Case 85,Process Creation,Value 24,2011/04/28 12:00:25.000,Variant 2,2,Assembly_Supplier_IW-Frozen
+Case 86,Process Creation,Value 24,2011/04/28 12:00:28.000,Variant 5,5,Assembly_Supplier_IW-Frozen
+Case 86,EngSupplierDesign Lead,Value 24,2011/04/28 12:00:34.000,Variant 5,5,Assembly_Supplier_IW-Frozen
+Case 86,WP Lead,Value 28,2011/04/28 13:00:58.000,Variant 5,5,Assembly_Supplier_IW-Frozen
+Case 86,Stress WP Lead,Value 27,2011/04/28 14:00:06.000,Variant 5,5,Assembly_Supplier_IW-Frozen
+Case 1124,Process Creation,Value 66,2011/04/28 15:00:07.000,Variant 3,3,Assembly_IW-Frozen
+Case 1124,CRA,Value 22,2011/04/29 14:00:40.000,Variant 3,3,Assembly_IW-Frozen
+Case 514,Process Creation,Value 73,2011/04/29 17:00:47.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 514,EngSupplierDesign Lead,Value 73,2011/04/29 17:00:48.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 317,Process Creation,Value 75,2011/04/30 13:00:11.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 317,EngSupplierDesign Lead,Value 50,2011/04/30 13:00:12.000,Variant 4,4,Detail_Supplier_IW-Frozen
+Case 1183,Design Checker,Value 1,2011/05/02 09:00:06.000,Variant 54,54,Assembly_IW-Frozen
+Case 582,Process Creation,Value 95,2011/05/02 12:00:33.000,Variant 16,16,Detail_IW-Frozen
+Case 16,Process Creation,Value 21,2011/05/02 14:00:22.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,CRA,Value 22,2011/05/02 16:00:05.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,Weight,Value 3,2011/05/02 16:00:08.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,ME Assembly Checker,Value 5,2011/05/02 16:00:25.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,M_P,Value 6,2011/05/02 16:00:54.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,Design Checker,Value 1,2011/05/02 17:00:18.000,Variant 80,80,Assembly_IW-Frozen
+Case 297,ME Assembly Checker,Value 5,2011/05/02 17:00:54.000,Variant 23,23,Assembly_IW-Frozen
+Case 1183,ME Assembly Checker,Value 5,2011/05/02 17:00:57.000,Variant 54,54,Assembly_IW-Frozen
+Case 1183,Design Lead,Value 7,2011/05/02 17:00:58.000,Variant 54,54,Assembly_IW-Frozen
+Case 16,Stress,Value 23,2011/05/02 18:00:00.000,Variant 80,80,Assembly_IW-Frozen
+Case 16,Design Lead,Value 7,2011/05/02 18:00:05.000,Variant 80,80,Assembly_IW-Frozen
+Case 906,Process Creation,Value 21,2011/05/02 18:00:16.000,Variant 2,2,Assembly_IW-Frozen
