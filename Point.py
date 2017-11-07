@@ -6,8 +6,8 @@ class Point:
         self._case_id = case_id
         self._ewd = ewd
         self._twd = twd
-        self._last_time = math.log((dt.strptime(last_time, "%Y/%m/%d %H:%M:%S")-dt(1970,1,1)).total_seconds())
-        self._last_time_tsp = dt.strptime(last_time, "%Y/%m/%d %H:%M:%S")
+        self._last_time = math.log((dt.strptime(last_time, "%Y/%m/%d %H:%M:%S.%f")-dt(1970,1,1)).total_seconds())
+        self._last_time_tsp = dt.strptime(last_time, "%Y/%m/%d %H:%M:%S.%f")
         # self._last_time = last_time
         self._nevents = nevents
         self._event_count = event_count

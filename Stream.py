@@ -15,16 +15,14 @@
 #-------------------------------------------------------------------------------------------------------------------------------------
 
 import pandas as pd
-import numpy as np
 from Process import Process
 
 class Stream:
-    def __init__(self, path, gp, th):
-    #@Gabriel
     # th - time horizon, horizon of processing defined by the user (time in seconds)
     # clum = clusterming object (for example a DBSCAN and its parameters)
     # log = binary parameter related to output plot
     #def __init__(self, path, gp, th, clum, log):
+    def __init__(self, path, gp, th):
         self.stream = pd.read_csv(path)
         self.gp = gp
         self.processes = []
@@ -60,7 +58,6 @@ class Stream:
 
     # simulates the process arrival by reading the data frame line by line
     def eventProcessing(self):
-        #@Gabriel, It would be necessary treat the th parameter!
         for index, event in self.stream.iterrows():
             self.setProcess(event[6], event[0].split(" ")[1], event[1], event[3])
             # if index > 1000:

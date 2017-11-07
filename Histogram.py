@@ -19,18 +19,12 @@ class Histogram:
         self.hist = None
         self.histTime = None
 
-    def getHist(self):
-        return self.hist
-
-    def getHistTime(self):
-        return self.histTime
-
     # recieves a list of timestamps, creates quartiles and place the timestamps into the quartiles (binning)
     def binning(self, times):
         timediffs = []
-        first = dt.strptime(times[0], "%Y/%m/%d %H:%M:%S")
+        first = dt.strptime(times[0], "%Y/%m/%d %H:%M:%S.%f")
         for j in times:
-            timediffs.append((dt.strptime(j, "%Y/%m/%d %H:%M:%S")-first).total_seconds())
+            timediffs.append((dt.strptime(j, "%Y/%m/%d %H:%M:%S.%f")-first).total_seconds())
         dfqs = pd.DataFrame(timediffs,columns=['A'])
 
         qs = []
@@ -94,10 +88,11 @@ class Histogram:
         return ewd
 
     # TWD calc based on the current timestamp and the histogram
-    def TWD(self, tmsp):
+    def TWD(self, tmsp, fp = False):
         histTimeNorm = [(i-min(self.histTime))/(max(self.histTime)-min(self.histTime)) for i in self.histTime]
         processBin = self.binning(tmsp)
-
+        if fp == True:
+            return processBin
         if processBin[0] == processBin[1] and processBin[0] == processBin[2] and processBin[0] == processBin[3]:
             processBin = [0,0,0,0]
         else:

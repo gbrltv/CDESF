@@ -10,9 +10,3 @@ class Activity:
     def __init__(self, name, timestamp):
         self.name = name
         self.timestamp = timestamp
-
-    def getTimestamp(self):
-        return self.timestamp
-
-    def getName(self):
-        return self.name

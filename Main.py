@@ -7,11 +7,15 @@
 #
 # Used to test the framework
 #-------------------------------------------------------------------------------------------------------------------------------------
-
-import pandas as pd
 from Stream import Stream
 
-stream = Stream('demo/hospital_converted.csv', 10, 172800)
+# 6 hours = 21600 seconds
+# 12 hours = 43200 seconds
+# 1 day = 86400 seconds
+# 2 days = 172800 seconds
+# 4 days = 345600 seconds
+# stream = Stream('demo/hospital_converted.csv', 10, 86400)
+stream = Stream('demo/demo.csv', 10, 86400)
 # stream.printStream()
 
 stream.eventProcessing()
