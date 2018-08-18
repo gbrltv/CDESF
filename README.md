@@ -1,11 +1,12 @@
 # Concept Drift in Event Stream Framework (CDESF)
 
-A framework to treat event logs in a streaming environment capable of handling concept drift and anomaly detection.
+[A Framework for Human-in-the-loop Monitoring of Concept-drift Detection in Event Log Stream](https://dl.acm.org/citation.cfm?id=3186343)
 
-CDESF's publication (A Framework for Human-in-the-loop Monitoring of Concept-drift Detection in Event Log Stream) can be found in https://dl.acm.org/citation.cfm?id=3186343
+A framework to treat event logs in a streaming environment capable of handling concept drift and anomaly detection.
 
 If you make use of this code, please give it proper citation.
 
+```
 @inproceedings{BarbonJunior:2018:FHM:3184558.3186343,
  author = {Barbon Junior, Sylvio and Tavares, Gabriel Marques and da Costa, Victor G. Turrisi and Ceravolo, Paolo and Damiani, Ernesto},
  title = {A Framework for Human-in-the-loop Monitoring of Concept-drift Detection in Event Log Stream},
@@ -23,3 +24,4 @@ If you make use of this code, please give it proper citation.
  address = {Republic and Canton of Geneva, Switzerland},
  keywords = {clustering, concept-drift, dbscan, process mining, stream mining},
 } 
+```
