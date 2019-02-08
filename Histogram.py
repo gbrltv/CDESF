@@ -1,18 +1,9 @@
-#-------------------------------------------------------------------------------------------------------------------------------------
-# File: Histogram.py
-# Name: Gabriel Tavares
-# Date: 28/08/2017
-# Version: 0.1
-# Project: Stream Process Mining Framework
-#-------------------------------------------------------------------------------------------------------------------------------------
-
 from collections import Counter
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import pandas.core.algorithms as algos
 from datetime import datetime as dt
-# import editdistance
 
 class Histogram:
     def __init__(self):
@@ -67,12 +58,9 @@ class Histogram:
     # EWD calc based on the current trace and the histogram
     def EWD(self, trace):
         histNorm = (self.hist['Count']-min(self.hist['Count']))/(max(self.hist['Count'])-min(self.hist['Count']))
-        # print(histNorm)
-
         hist_str = ''.join(self.hist.index.tolist())
         trace_str = ''.join(trace)
-        # print("edit:", editdistance.eval(hist_str, trace_str))
-
+        
         ewd = 0
         # Cases when an activity appears only in the histogram. The normalized value is added to EWD
         for i in hist_str:
@@ -84,7 +72,6 @@ class Histogram:
             if i not in hist_str:
                 ewd += 0.5
 
-        # print('ewd: ', ewd)
         return ewd
 
     # TWD calc based on the current timestamp and the histogram
@@ -99,5 +86,4 @@ class Histogram:
             processBin = [(i-min(processBin))/(max(processBin)-min(processBin)) for i in processBin]
 
         twd = sum([abs(processBin[i]-histTimeNorm[i]) for i in range(4)])
-        # print('twd: ', twd)
         return twd
