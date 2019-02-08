@@ -1,10 +1,4 @@
 #-------------------------------------------------------------------------------------------------------------------------------------
-# File: Stream.py
-# Name: Gabriel Tavares
-# Date: 28/08/2017
-# Version: 0.1
-# Project: Stream Process Mining Framework
-#
 # Stream recieves a .csv (Comma-separeted values) archive. This archive must contain information about processes.
 # The actual code handles a pre determined format.
 # Example:
@@ -18,10 +12,6 @@ import pandas as pd
 from Process import Process
 
 class Stream:
-    # th - time horizon, horizon of processing defined by the user (time in seconds)
-    # clum = clusterming object (for example a DBSCAN and its parameters)
-    # log = binary parameter related to output plot
-    #def __init__(self, path, gp, th, clum, log):
     def __init__(self, path, gp, th):
         self.stream = pd.read_csv(path)
         self.gp = gp
@@ -60,7 +50,3 @@ class Stream:
     def eventProcessing(self):
         for index, event in self.stream.iterrows():
             self.setProcess(event[6], event[0].split(" ")[1], event[1], event[3])
-            # if index > 1000:
-            #     break
-            # if index % 100 == 0:
-            #     print(index)
