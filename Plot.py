@@ -3,7 +3,6 @@ from itertools import chain
 from Point import Point
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-# mesmo parecendo que não usa, tem que importar
 from mpl_toolkits.mplot3d import Axes3D
 import os
 
