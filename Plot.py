@@ -13,7 +13,7 @@ class Plot:
         self._plotid = 0
         self._name = name
         self._anoms = set()
-        self.readAnoms()
+        # self.readAnoms()
         # self.font = {'family': 'serif',
                     # 'color':  'darkred',
                     # 'weight': 'normal',
@@ -110,74 +110,3 @@ class Plot:
         plt.show()
         # self.saveFunc()
         plt.close()
-
-
-    # def plotFuncOld(self, gppts, pts, name, act_name):
-    #     # for pt in chain(gppts, pts):
-    #     #     if pt.case_id in self.anoms:
-    #     #         print('anom: ', pt.case_id)
-    #
-    #     # fig, ax = plt.subplots()
-    #     fig = plt.figure(figsize=(15,10))
-    #     ax = fig.add_subplot(111)
-    #     for pt in gppts:
-    #         if pt.case_id in self.anoms:
-    #             plt.scatter(pt.ewd, pt.twd, marker='v', alpha=.6, c='blue', s=50)
-    #             # ax.scatter(pt.ewd, pt.twd, marker='o', alpha=.6, c='red', s=50)
-    #         else:
-    #             ax.scatter(pt.ewd, pt.twd, marker='o', alpha=.6, c='blue', s=50)
-    #         # annotation = str(pt.case_id) + '/' + str(pt.nevents)
-    #         # ax.annotate(annotation, xy=(pt.ewd,pt.twd), xytext=(pt.ewd,pt.twd))
-    #
-    #     ncolors = 10
-    #     colors = list(Color('yellow').range_to(Color('red'), ncolors))
-    #     if len(pts) > ncolors:
-    #         overflow_colors = [Color('yellow')] * (len(pts) - ncolors)
-    #     else:
-    #         colors = colors[len(colors) - len(pts):]
-    #         overflow_colors = []
-    #
-    #     for pt, color in zip(pts, chain(overflow_colors, colors)):
-    #         if pt.case_id in self.anoms:
-    #             plt.scatter(pt.ewd, pt.twd, marker='v', alpha=.8, c=color.get_rgb(), edgecolors='grey', s=50)
-    #             # ax.scatter(pt.ewd, pt.twd, marker='o', alpha=.8, c='red', edgecolors='grey', s=50)
-    #         else:
-    #             ax.scatter(pt.ewd, pt.twd, marker='o', alpha=.8, c=color.get_rgb(), edgecolors='grey', s=50)
-    #         # annotation = str(pt.case_id) + '/' + str(pt.nevents)
-    #         # ax.annotate(annotation, xy=(pt.ewd,pt.twd), xytext=(pt.ewd,pt.twd))
-    #
-    #
-    #     self.plotid += 1
-    #     ax.axis([-.5, 3.05, -.5, 3.05])
-    #     ax.set_xlabel('EWD', fontsize=15)
-    #     ax.set_ylabel('TWD', fontsize=15)
-    #
-    #     title = name + ' (event: ' + str(self.plotid) + '/' + str(self.tot_events) + ')'
-    #     rtitle = 'Event: ' + act_name
-    #     ax.set_title(title, fontsize=15)
-    #     ax.set_title(rtitle, loc='right')
-    #
-    #
-    #     # sm = plt.cm.ScalarMappable(cmap=plt.cm.summer, norm=plt.Normalize(vmin=None, vmax=None, clip=False))
-    #     # # fake up the array of the scalar mappable
-    #     # sm._A = []
-    #     # plt.colorbar(sm)
-    #
-    #     x = 15
-    #     y = 15
-    #     # leg_gp = ax.scatter(x, y, marker='s', alpha=.8, c='blue', edgecolors='grey', s=50)
-    #     # leg_older = ax.scatter(x, y, marker='s', alpha=.8, c=Color('green').rgb, edgecolors='grey', s=50)
-    #     # leg_newer = ax.scatter(x, y, marker ='s', alpha=.8, c=Color('yellow').rgb, edgecolors='grey', s=50)
-    #     leg_anom = ax.scatter(x, y, marker ='v', alpha=.8, c='white', edgecolors='grey', s=50)
-    #     leg_normal = ax.scatter(x, y, marker ='o', alpha=.8, c='white', edgecolors='grey', s=50)
-    #
-    #     leg_gp = mpatches.Patch(color='blue')
-    #     leg_older = mpatches.Patch(color=Color('yellow').rgb)
-    #     leg_newer = mpatches.Patch(color=Color('red').rgb)
-    #
-    #     plt.legend([leg_gp, leg_older, leg_newer, leg_normal, leg_anom], ["Grace Period", "Older Events", "Newer Events", "Normal Events", "Anomalous Events"])
-    #
-    #
-    #     # # self.saveFunc()
-    #     # plt.show()
-    #     # plt.close()
