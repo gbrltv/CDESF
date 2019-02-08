@@ -1,111 +1,181 @@
-from colour import Color
-from itertools import chain
+#-------------------------------------------------------------------------------------------------------------------------------------
+# File: Process.py
+# Name: Gabriel Tavares
+# Date: 28/08/2017
+# Version: 0.1
+# Project: Stream Process Mining Framework
+#-------------------------------------------------------------------------------------------------------------------------------------
+
+from Case import Case
+from Histogram import Histogram
 from Point import Point
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-from mpl_toolkits.mplot3d import Axes3D
-import os
+from Plot import Plot
+from random import randint
+from datetime import datetime as dt
+from itertools import chain
+import pandas as pd
+# import numpy as np
+import math
+import csv
+import sys
+
+class Process:
+    def __init__(self, name, gp, th):
+        self.cases = []
+        self.name = name
+        self.gp = gp
+        self.act_dic = {}
+        self.abc_list = ['a', 'b', 'c', 'd', 'e', 'f',
+                         'g', 'h', 'i', 'j', 'k', 'l',
+                         'm', 'n', 'o', 'p', 'q', 'r',
+                         's', 't', 'u', 'v', 'w', 'x',
+                         'y', 'z']
+        self.abc_index = 0
+        self.gpCreation = False
+        self.histogram = Histogram()
+        self.th = th
+        self.gppts = []
+        self.pts = []
+        self.plot = Plot(name, gp, th)
+        self.check_point = 0
+        self.cp_count = 0
+        self.nyquist = gp
+        self.cp_cases = 0
+        self.event_count = 0
+
+    def getTraceListForGP(self, cid):
+        trace_list = []
+        for case in self.cases:
+            if case.id != cid:
+                trace_list.extend(case.trace)
+        return trace_list
+
+    def getTimestampListForGP(self, cid):
+        timestamp_list = []
+        for case in self.cases:
+            if case.id != cid:
+                timestamp_list.append(case.timestamp)
+        return timestamp_list
+
+    def getTraceList(self):
+        trace_list = []
+        for case in self.cases:
+            trace_list.extend(case.trace)
+        return trace_list
+
+    def getTimestampList(self):
+        timestamp_list = []
+        for case in self.cases:
+            timestamp_list.append(case.timestamp)
+        return timestamp_list
+
+    # prints the case and recursively prints its Activities and Trace
+    def printCases(self):
+        for case in self.cases:
+            print("Case", case.id, ": ", end="")
+            case.printActivities()
+            print()
+
+    # returns the index of a case in the cases list based on the 'case_id' parameter
+    # 'case_id' must be an integer
+    def getCase(self, case_id):
+        for index, case in enumerate(self.cases):
+            if case.id == case_id:
+                return index
+        return None
+
+    def delCases(self):
+        a = sorted(self.cases, key=lambda x: x.getLastTime(), reverse=True)
+        self.cases = a[:self.nyquist]
 
 
-class Plot:
-    def __init__(self, name):
-        self._plotid = 0
-        self._name = name
-        self._anoms = set()
-        # self.readAnoms()
-        # self.font = {'family': 'serif',
-                    # 'color':  'darkred',
-                    # 'weight': 'normal',
-                    # 'size': 16,
-                    # }
+    # Grace Period one versus all (ewd, twd) for plotting
+    def GPova(self):
+        for case in self.cases:
+            self.histogram.histCreation(self.getTraceListForGP(case.id), self.name)
+            self.histogram.timeCreation(self.getTimestampListForGP(case.id), self.name)
 
-    def readAnoms(self):
-        f = open("cases_anom.txt", 'r')
-        for line in f:
-            self._anoms.add(line.strip())
-        # print(self.anoms)
+            ewd = self.histogram.EWD(case.trace)
+            twd = self.histogram.TWD(case.timestamp)
 
-    def saveFunc(self):
-        directory = f'plot/{self._name}'
-        filen = f'{str(self._plotid)}.png'
+            case.ewd = ewd
+            case.twd = twd
 
-        if not os.path.exists(directory):
-            try:
-                os.makedirs(directory)
-            except OSError as e:
-                if e.errno != errno.EEXIST:
-                    raise
-        plt.savefig(f'{directory}/{filen}')
+            new_p = Point(case.id, ewd + randint(-5,5)/100, twd + randint(-5,5)/100, case.lenTrace(), case.getLastTime(), -1)
+            if new_p in self.gppts:
+                self.gppts.pop(self.gppts.index(new_p))
+            self.gppts.append(new_p)
 
-    def plotFunc(self, gp_pts, pts, name, act_name, color_range=10):
-        # params common to all scatters
-        s = 50
-        edgecolors = 'grey'
+    # sets up a new case, adding the activity/trace. If case already exists, the function retrieves it and add the activity/trace
+    def setCase(self, case_id, act_name, act_timestamp):
+        index = self.getCase(case_id)
+        act_conv = self.convertAct(act_name)
 
-        # create figure and define titles and legend
-        fig = plt.figure(figsize=(9,6.5))
-        ax = fig.add_subplot(111, projection='3d')
-
-        self._plotid += 1
-        title = f'{name} (event: {self._plotid})'
-        rtitle = f'Event: {act_name}'
-        ax.set_title(title, fontsize=15)
-        ax.title.set_position([.5, -.1])
-        ax.set_title(rtitle, loc='right')
-
-        ax.axis([-.5, 3.05, -.5, 3.05])
-        ax.set_xlim(-.5, 3.05)
-        ax.set_ylim(-.5, 3.05)
-        ax.set_zlim(0, 1)
-        ax.set_xlabel('EWD', fontsize=15)
-        ax.set_ylabel('TWD', fontsize=15)
-        ax.set_zlabel('Time', fontsize=15)
-
-        # x = 30
-        # y = 30
-        # z = 30
-        # leg_anom = ax.scatter(x, y, z, marker='v', alpha=.8, c='white',
-        #                       edgecolors=edgecolors, s=s)
-        # leg_normal = ax.scatter(x, y, z, marker='o', alpha=.8, c='white',
-        #                         edgecolors=edgecolors, s=s)
-        leg_gp = mpatches.Patch(color='blue')
-        leg_older = mpatches.Patch(color=Color('yellow').rgb)
-        leg_newer = mpatches.Patch(color=Color('red').rgb)
-        plt.legend([leg_gp, leg_older, leg_newer],
-                   ["Grace Period", "Older Events", "Newer Events"],
-                   bbox_to_anchor=(0.21, 1.15))
-
-        # last times are normalized (0,1)/ j variable and norm are used in the subsequent loops instead of pt._last_time, since pt._last_time keeps the original value
-        l = [p._last_time for p in chain(gp_pts, pts)]
-        norm = [(i-min(l))/(max(l)-min(l)) for i in l]
-
-        j = 0
-        # plot gp points
-        for pt in gp_pts:
-            x = pt._ewd
-            y = pt._twd
-            z = norm[j]
-            j += 1
-            # marker = 'v' if pt._case_id in self._anoms else 'o'
-            marker = 'o'
-            ax.scatter(x, y, z, c='blue', marker=marker, alpha=0.6, s=s)
-
-        # plot other points
-        colors = list(Color('yellow').range_to(Color('red'), color_range))
-        if len(pts) > color_range:
-            overflow_colors = [Color('yellow')] * (len(pts) - color_range)
+        if index == None:
+            case = Case(case_id)
+            case.setActivity(act_name, act_timestamp)
+            case.trace.append(act_conv)
+            case.timestamp.append(act_timestamp)
+            self.cases.append(case)
+            self.cp_cases += 1
         else:
-            colors = colors[len(colors) - len(pts):]
-            overflow_colors = []
+            self.cases[index].setActivity(act_name, act_timestamp)
+            self.cases[index].trace.append(act_conv)
+            self.cases[index].timestamp.append(act_timestamp)
 
-        for pt, color in zip(pts, chain(overflow_colors, colors)):
-            # marker = 'v' if pt._case_id in self._anoms else 'o'
-            marker = 'o'
-            ax.scatter(pt._ewd, pt._twd, norm[j], marker=marker,
-                       alpha=0.8, c=color.hex_l,
-                       edgecolors=edgecolors, s=s)
-            j += 1
+        # if we are past the grace period, the EWD and TWD are calculated
+        if self.gpCreation:
+            index = self.getCase(case_id)
+            ewd = self.histogram.EWD(self.cases[index].trace)
+            twd = self.histogram.TWD(self.cases[index].timestamp)
 
-        plt.show()
-        # self.saveFunc()
-        plt.close()
+            self.cases[index].ewd = ewd
+            self.cases[index].twd = twd
+
+            self.event_count += 1
+            # point creation with Jitter effect
+            new_p = Point(case_id, ewd + randint(-5,5)/100, twd + randint(-5,5)/100, self.cases[index].lenTrace(), self.cases[index].getLastTime(), self.event_count)
+            # updating point on list of points
+            if new_p in self.pts:
+                self.pts.pop(self.pts.index(new_p))
+            # if new event is from a GP point after GP, the point is removed from gp
+            if new_p in self.gppts:
+                self.gppts.pop(self.gppts.index(new_p))
+            self.pts.append(new_p)
+
+            # uncomment for plotting
+            self.plot.plotFunc(self.gppts, self.pts, self.name, act_name)
+
+            current = dt.strptime(self.cases[index].getLastTime(), "%Y/%m/%d %H:%M:%S.%f")
+            if (current - self.check_point).total_seconds() > self.th:
+                self.check_point = current
+                self.cp_count += 1
+                # nyquist, release cases, model update
+                if len(self.cases) > self.nyquist:
+                    self.delCases()
+                    lenc = len(self.cases)
+                    self.nyquist = self.cp_cases*2
+                    if self.nyquist < self.gp:
+                        self.nyquist = self.gp
+                    self.histogram.histCreation(self.getTraceList(), self.name)
+                    self.histogram.timeCreation(self.getTimestampList(), self.name)
+                self.cp_cases = 0
+
+
+        # checks the grace period size, if the number of cases are enough, a histogram is created
+        if len(self.cases) > self.gp and not self.gpCreation:
+            self.histogram.histCreation(self.getTraceList(), self.name)
+            self.histogram.timeCreation(self.getTimestampList(), self.name)
+            self.GPova()
+            if index is None:
+                index = self.getCase(case_id)
+            self.check_point = dt.strptime(self.cases[index].getLastTime(), "%Y/%m/%d %H:%M:%S.%f")
+            self.gpCreation = True
+
+
+    # converts the activity name to a letter that represents it. Each process has its own conversion and it must be the same for every case
+    def convertAct(self, act_name):
+        if act_name not in self.act_dic:
+            self.act_dic[act_name] = self.abc_list[self.abc_index]
+            self.abc_index += 1
+        return self.act_dic[act_name]
