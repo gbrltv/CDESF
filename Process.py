@@ -6,7 +6,6 @@ from random import randint
 from datetime import datetime as dt
 from itertools import chain
 import pandas as pd
-# import numpy as np
 import math
 import csv
 import sys
