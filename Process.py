@@ -1,11 +1,3 @@
-#-------------------------------------------------------------------------------------------------------------------------------------
-# File: Process.py
-# Name: Gabriel Tavares
-# Date: 28/08/2017
-# Version: 0.1
-# Project: Stream Process Mining Framework
-#-------------------------------------------------------------------------------------------------------------------------------------
-
 from Case import Case
 from Histogram import Histogram
 from Point import Point
