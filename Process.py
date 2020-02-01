@@ -11,26 +11,21 @@ import csv
 import sys
 
 class Process:
-    def __init__(self, name, gp, th):
+    def __init__(self, name, gp, th, gen_plot):
         self.cases = []
         self.name = name
         self.gp = gp
-        self.act_dic = {}
-        self.abc_list = ['a', 'b', 'c', 'd', 'e', 'f',
-                         'g', 'h', 'i', 'j', 'k', 'l',
-                         'm', 'n', 'o', 'p', 'q', 'r',
-                         's', 't', 'u', 'v', 'w', 'x',
-                         'y', 'z']
-        self.abc_index = 0
+        self.th = th
+        self.gen_plot = gen_plot
         self.gpCreation = False
         self.histogram = Histogram()
-        self.th = th
+        self.plot = Plot(name)
         self.gppts = []
         self.pts = []
-        self.plot = Plot(name, gp, th)
+        self.case_metrics = []
+        self.nyquist = gp
         self.check_point = 0
         self.cp_count = 0
-        self.nyquist = gp
         self.cp_cases = 0
         self.event_count = 0
 
@@ -60,16 +55,20 @@ class Process:
             timestamp_list.append(case.timestamp)
         return timestamp_list
 
-    # prints the case and recursively prints its Activities and Trace
     def printCases(self):
+        '''
+        Prints the case and recursively prints its Activities and Trace
+        '''
         for case in self.cases:
             print("Case", case.id, ": ", end="")
             case.printActivities()
             print()
 
-    # returns the index of a case in the cases list based on the 'case_id' parameter
-    # 'case_id' must be an integer
     def getCase(self, case_id):
+        '''
+        Returns the index of a case in the cases list based on the 'case_id' parameter
+        'case_id' must be an integer
+        '''
         for index, case in enumerate(self.cases):
             if case.id == case_id:
                 return index
@@ -79,9 +78,10 @@ class Process:
         a = sorted(self.cases, key=lambda x: x.getLastTime(), reverse=True)
         self.cases = a[:self.nyquist]
 
-
-    # Grace Period one versus all (ewd, twd) for plotting
     def GPova(self):
+        '''
+        Grace Period one versus all (ewd, twd) for plotting
+        '''
         for case in self.cases:
             self.histogram.histCreation(self.getTraceListForGP(case.id), self.name)
             self.histogram.timeCreation(self.getTimestampListForGP(case.id), self.name)
@@ -92,36 +92,50 @@ class Process:
             case.ewd = ewd
             case.twd = twd
 
+            self.case_metrics.append([case.id, case.ewd, case.twd,
+                                       case.trace, case.timestamp])
+
             new_p = Point(case.id, ewd + randint(-5,5)/100, twd + randint(-5,5)/100, case.lenTrace(), case.getLastTime(), -1)
             if new_p in self.gppts:
                 self.gppts.pop(self.gppts.index(new_p))
             self.gppts.append(new_p)
 
-    # sets up a new case, adding the activity/trace. If case already exists, the function retrieves it and add the activity/trace
     def setCase(self, case_id, act_name, act_timestamp):
+        '''
+        Sets up a new case, adding the activity/trace.
+        If case already exists, the function retrieves it and add the activity/trace
+        '''
         index = self.getCase(case_id)
-        act_conv = self.convertAct(act_name)
 
         if index == None:
             case = Case(case_id)
             case.setActivity(act_name, act_timestamp)
-            case.trace.append(act_conv)
+            case.trace.append(act_name)
             case.timestamp.append(act_timestamp)
             self.cases.append(case)
             self.cp_cases += 1
         else:
             self.cases[index].setActivity(act_name, act_timestamp)
-            self.cases[index].trace.append(act_conv)
+            self.cases[index].trace.append(act_name)
             self.cases[index].timestamp.append(act_timestamp)
 
-        # if we are past the grace period, the EWD and TWD are calculated
         if self.gpCreation:
+            '''
+            if we are past the grace period, the EWD and TWD are calculated
+            '''
             index = self.getCase(case_id)
             ewd = self.histogram.EWD(self.cases[index].trace)
             twd = self.histogram.TWD(self.cases[index].timestamp)
 
             self.cases[index].ewd = ewd
             self.cases[index].twd = twd
+
+            # saving case metrics
+            self.case_metrics.append([self.cases[index].id,
+                                       self.cases[index].ewd,
+                                       self.cases[index].twd,
+                                       self.cases[index].trace,
+                                       self.cases[index].timestamp])
 
             self.event_count += 1
             # point creation with Jitter effect
@@ -134,15 +148,17 @@ class Process:
                 self.gppts.pop(self.gppts.index(new_p))
             self.pts.append(new_p)
 
-            # uncomment for plotting
-            self.plot.plotFunc(self.gppts, self.pts, self.name, act_name)
+            if self.gen_plot:
+                self.plot.plotFunc(self.gppts, self.pts, self.name, act_name)
 
             current = dt.strptime(self.cases[index].getLastTime(), "%Y/%m/%d %H:%M:%S.%f")
             if (current - self.check_point).total_seconds() > self.th:
                 self.check_point = current
                 self.cp_count += 1
-                # nyquist, release cases, model update
                 if len(self.cases) > self.nyquist:
+                    '''
+                    nyquist, release cases, model update
+                    '''
                     self.delCases()
                     lenc = len(self.cases)
                     self.nyquist = self.cp_cases*2
@@ -152,9 +168,10 @@ class Process:
                     self.histogram.timeCreation(self.getTimestampList(), self.name)
                 self.cp_cases = 0
 
-
-        # checks the grace period size, if the number of cases are enough, a histogram is created
         if len(self.cases) > self.gp and not self.gpCreation:
+            '''
+            Checks the GP size, if the number of cases are enough, a histogram is created
+            '''
             self.histogram.histCreation(self.getTraceList(), self.name)
             self.histogram.timeCreation(self.getTimestampList(), self.name)
             self.GPova()
@@ -164,9 +181,18 @@ class Process:
             self.gpCreation = True
 
 
-    # converts the activity name to a letter that represents it. Each process has its own conversion and it must be the same for every case
-    def convertAct(self, act_name):
-        if act_name not in self.act_dic:
-            self.act_dic[act_name] = self.abc_list[self.abc_index]
-            self.abc_index += 1
-        return self.act_dic[act_name]
+    def caseMetrics(self):
+        '''
+        Converts self.case_metrics into a dataframe and saves it.
+        '''
+        import os
+        if not os.path.exists('metrics'):
+            try:
+                os.makedirs('metrics')
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+
+        df = pd.DataFrame(self.case_metrics, columns=['case_id', 'ewd', 'twd',
+                                                        'trace', 'timestamp'])
+        df.to_csv(f'metrics/{self.name}_case_metrics.csv', index=False)

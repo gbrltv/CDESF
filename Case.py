@@ -9,14 +9,18 @@ class Case():
         self.ewd = -1
         self.twd = -1
 
-    # prints the activities and the case trace
     def printActivities(self):
+        '''
+        Prints the activities and the case trace
+        '''
         for activity in self.activities:
             print(activity.name, " ", end="")
         print(self.trace, end="")
 
-    # sets up a new activity, adding its name and timestamp of execution
     def setActivity(self, act_name, act_timestamp):
+        '''
+        Sets up a new activity, adding its name and timestamp of execution
+        '''
         activity = Activity(act_name, act_timestamp)
         self.activities.append(activity)
 

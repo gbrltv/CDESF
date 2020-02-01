@@ -23,7 +23,6 @@ class Plot:
         f = open("cases_anom.txt", 'r')
         for line in f:
             self._anoms.add(line.strip())
-        # print(self.anoms)
 
     def saveFunc(self):
         directory = f'plot/{self._name}'
@@ -53,21 +52,14 @@ class Plot:
         ax.title.set_position([.5, -.1])
         ax.set_title(rtitle, loc='right')
 
-        ax.axis([-.5, 3.05, -.5, 3.05])
-        ax.set_xlim(-.5, 3.05)
-        ax.set_ylim(-.5, 3.05)
-        ax.set_zlim(0, 1)
+        # ax.axis([-.5, 3.05, -.5, 3.05])
+        # ax.set_xlim(-.5, 3.05)
+        # ax.set_ylim(-.5, 3.05)
+        # ax.set_zlim(0, 1)
         ax.set_xlabel('EWD', fontsize=15)
         ax.set_ylabel('TWD', fontsize=15)
         ax.set_zlabel('Time', fontsize=15)
 
-        # x = 30
-        # y = 30
-        # z = 30
-        # leg_anom = ax.scatter(x, y, z, marker='v', alpha=.8, c='white',
-        #                       edgecolors=edgecolors, s=s)
-        # leg_normal = ax.scatter(x, y, z, marker='o', alpha=.8, c='white',
-        #                         edgecolors=edgecolors, s=s)
         leg_gp = mpatches.Patch(color='blue')
         leg_older = mpatches.Patch(color=Color('yellow').rgb)
         leg_newer = mpatches.Patch(color=Color('red').rgb)
@@ -102,10 +94,12 @@ class Plot:
             # marker = 'v' if pt._case_id in self._anoms else 'o'
             marker = 'o'
             ax.scatter(pt._ewd, pt._twd, norm[j], marker=marker,
-                       alpha=0.8, c=color.get_rgb(),
+                       alpha=0.8, c=[color.get_rgb()],
                        edgecolors=edgecolors, s=s)
             j += 1
 
-        plt.show()
-        # self.saveFunc()
+        # uncomment to show every plot
+        # plt.show()
+        # uncomment to save every plot
+        self.saveFunc()
         plt.close()

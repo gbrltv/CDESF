@@ -1,17 +1,20 @@
-from collections import Counter
-import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
-import pandas.core.algorithms as algos
+import pandas as pd
+from math import isnan
+import matplotlib.pyplot as plt
+from collections import Counter
 from datetime import datetime as dt
+import pandas.core.algorithms as algos
 
 class Histogram:
     def __init__(self):
         self.hist = None
         self.histTime = None
 
-    # recieves a list of timestamps, creates quartiles and place the timestamps into the quartiles (binning)
     def binning(self, times):
+        '''
+        Recieves a list of timestamps, creates quartiles and place the timestamps into the quartiles (binning)
+        '''
         timediffs = []
         first = dt.strptime(times[0], "%Y/%m/%d %H:%M:%S.%f")
         for j in times:
@@ -33,21 +36,24 @@ class Histogram:
 
         return qs
 
-    # creates a histogram from a group of traces
     def histCreation(self, traces, name):
+        '''
+        Creates a histogram from a group of traces
+        '''
         letter_counts = Counter(traces)
         df = pd.DataFrame.from_dict(letter_counts, orient='index')
         df.columns = ['Count']
 
         self.hist = df.sort_index()
         # self.hist.plot(kind='bar')
-
         # path = 'histPlot/'+name+'.png'
         # plt.savefig(path)
         # plt.close()
 
-    # creates a histogram from a group of timestampss
     def timeCreation(self, tmsp, name):
+        '''
+        Creates a histogram from a group of timestamps
+        '''
         hist = []
         for i in tmsp:
             hist.append(self.binning(i))
@@ -55,27 +61,34 @@ class Histogram:
         timeDF = pd.DataFrame(hist, columns=['q1','q2','q3','q4'])
         self.histTime = [sum(timeDF['q1']), sum(timeDF['q2']), sum(timeDF['q3']), sum(timeDF['q4'])]
 
-    # EWD calc based on the current trace and the histogram
     def EWD(self, trace):
+        '''
+        EWD calc based on the current trace and the histogram
+        '''
         histNorm = (self.hist['Count']-min(self.hist['Count']))/(max(self.hist['Count'])-min(self.hist['Count']))
-        hist_str = ''.join(self.hist.index.tolist())
+        for i in range(len(histNorm)):
+            if isnan(histNorm[i]):
+                histNorm[i] = 0
+        hist = self.hist.index.tolist()
         trace_str = ''.join(trace)
-        
+
         ewd = 0
         # Cases when an activity appears only in the histogram. The normalized value is added to EWD
-        for i in hist_str:
-            if i not in trace_str:
+        for i in hist:
+            if i not in trace:
                 ewd += histNorm[i]
 
         # Cases when an activity appears only in the trace. A fixed value is added to EWD. The fixed value is 0.5
-        for i in trace_str:
-            if i not in hist_str:
+        for i in trace:
+            if i not in hist:
                 ewd += 0.5
-
+                
         return ewd
 
-    # TWD calc based on the current timestamp and the histogram
     def TWD(self, tmsp, fp = False):
+        '''
+        TWD calc based on the current timestamp and the histogram
+        '''
         histTimeNorm = [(i-min(self.histTime))/(max(self.histTime)-min(self.histTime)) for i in self.histTime]
         processBin = self.binning(tmsp)
         if fp == True:
